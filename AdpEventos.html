@@ -6,31 +6,200 @@
   <link rel="stylesheet" href="static/styles.css">
 </head>
 <header>
- <div class="container-column" style="height: 800px; width: 101%; background-color: rgb(255, 255, 255); margin: -10px; gap: 3rem">
-  <div class="container-row" style="height: 100px;width: 100%; background-color: rgba(255, 255, 255, 0.877); margin: 20px; border-radius: 10px;  gap:45rem;">
-   <div style="height: 100px; width: 400px; background-color: aqua; align-items: center; margin-left: 20px;">
-    <img src="..." alt="LOGO ADP O EVENTOS" style="object-fit: cover;">
+ <div class="container-column" style=" height: 100%px; width: 1908px; ; margin: -10px; gap: 3rem; flex: 1;">
+  <div id="barra-header"class="container-row" style="position: relative; transition: all 0.3s ease; height: 150px; width: 1908px; background-color: rgba(151, 0, 46); gap:35rem;">
+   <div style="height: 100px; width: 400px; align-items: center; margin-left: 20px; margin-top: 0px;">
+    <img id="logo-header" src="static/images/logo-ABOGACIA-ByN.png" alt="LOGO ADP O EVENTOS" style="object-fit: cover; height: 150px; width: 700px;">
    </div>
-   <div class="container-row" style="height: 100% ;width: 900px; gap: 3rem; background-color: aqua; align-items: center; "> 
-    <button class="btn" style="color:white;width:250px; height: 50px;">Que hacemos</button>
-    <button class="btn" style="color:white;width:250px; height: 50px;">Agenda</button>
-    <button class="btn" style="color:white;width:250px; height: 50px;">Speakers</button>
-    <button class="btn" style="color:white;width:250px; height: 50px;">Comite organizador</button>
-    <button class="btn" style="color:white;width:250px; height: 50px;">Sponsors</button>
-    <button class="btn" style="color:white;width:250px; height: 50px;">Empresas LegalTech</button>
+   <div class="container-row" style="height: 100px ;width: 900px; gap: 3rem; align-items:center; margin-top: 20px; margin-right: 20px;"> 
+    <button class="btn" style="color:black; background-color:151, 0, 46 ; height: 50px; width: 200px; font-size: 20px;">Que hacemos</button>
+    <button class="btn" style="color:black; background-color:151, 0, 46 ; height: 50px; width: 200px; font-size: 20px;">Agenda</button>
+    <button class="btn" style="color:black; background-color:151, 0, 46 ; height: 50px; width: 200px; font-size: 20px;">Speakers</button>
+    <button class="btn" style="color:black; background-color:151, 0, 46 ; height: 50px; width: 200px; font-size: 20px;">Comite organizador</button>
+    <button class="btn" style="color:black; background-color:151, 0, 46 ; height: 50px; width: 200px; font-size: 20px;">Sponsors</button>
+    <button class="btn" style="color:black; background-color:151, 0, 46 ; height: 50px; width: 200px; font-size: 20px;">Empresas LegalTech</button>
    </div>
   </div>
-  <div class="container-column" style="height: 400px; width: 100%; background-color: brown; gap: 5rem;">
-   <div class="container-row" style="height: 250px; width: 900px; background-color: rgb(0, 224, 56); align-self: center; align-items: center; font-size: 100px;">
+ </div>
+  <div class="container-column" style="height: 600px; width: 101%; background-color: rgb(151, 0, 46); gap: 5rem; flex: 1; margin-left: -10px">
+   <div class="container-column" style="height: 150px; width: 1300px; align-self: center; align-items: center; font-size: 70px; margin-top: 100px; margin-right: 550px;">
     <div class="h3" style="color: black; align-self: center; ">
-     TEXTO
+     EVENTOS LEGALTECH<br>COLEGIO DE ABOGADOS
     </div>
    </div>
   </div>
- </div>
+ 
 </header>
 <body>
- <div class="" style="height: 150px;width: 101%;background-color: rgb(129, 0, 39);margin: -10px;">
-
+ <div class="container" style="width: 1908px; height: 220px;">
+  <div class="container-row" style="height: 100px;width: 1908px;background-color: rgb(255, 255, 255);margin: -10px; margin-top: 20px; gap: 67rem">
+   <div class="h3" style="font-size: 70px; margin-left: 250px; ">AGENDA</div>
+   <img src="static/images/deco-hexagonos.png" style="height:300px; width: 300px; margin-top: -100px;">
+  </div>
  </div>
+ <div class="container-row" style="height: 2000px;width: 1908px;background-color: rgb(255, 255, 255); margin-left: -10px; gap: 3rem;">
+  <img src="static/images/bannerAgenda.jpeg" alt="banner" style="z-index: 0; object-fit: cover; height: 900px; width: 1908px; position: absolute">
+    <div class="container-column" style="height: 100%; width: 500px; margin-top: 150px; margin-left: 70px; gap: 10rem"> 
+      <div id="overlay"></div>
+      <div class="cronograma-item">
+        <div class="cronograma-hora">17:00 HS</div>
+        <div class="cronograma-linea"></div>
+        <div class="cronograma-texto">
+          <div class="cronograma-titulo">Acreditaciones</div>
+          <div class="cronograma-subtitulo">2do Piso</div>
+          <div class="cronograma-info-extra">
+          <p>Detalle completo de las acreditaciones. Vení con DNI. Horario de 17 a 18 hs en el segundo piso. Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+      <div id="overlay"></div>
+      <div class="cronograma-item">
+        <div class="cronograma-hora">17:15 HS</div>
+        <div class="cronograma-linea"></div>
+        <div class="cronograma-texto">
+          <div class="cronograma-titulo">Apertura Institucional</div>
+          <div class="cronograma-subtitulo">2do Piso<br>DR. RICARDO GIL LAVEDRA <br>DRA.BEATRIZ TORRES</div>
+          <div class="cronograma-info-extra">
+          <p>Detalle completo de las acreditaciones. Vení con DNI. Horario de 17 a 18 hs en el segundo piso. Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-column" style="height: 100%; width: 500px; margin-top: 40px; margin-left: 70px; gap: 7rem"> 
+    <div id="overlay"></div>
+    <div class="cronograma-item">
+      <div class="cronograma-hora">17:30 HS</div>
+      <div class="cronograma-linea"></div>
+      <div class="cronograma-texto">
+        <div class="cronograma-titulo">Exposiciones Legaltech</div>
+        <div class="cronograma-subtitulo">2do Piso</div>
+        <div class="cronograma-info-extra">
+        <p>Detalle completo de las acreditaciones. Vení con DNI. Horario de 17 a 18 hs en el segundo piso. Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </div>
+    <div id="overlay"></div>
+    <div class="cronograma-item">
+      <div class="cronograma-hora">18:30 HS</div>
+      <div class="cronograma-linea"></div>
+      <div class="cronograma-texto">
+        <div class="cronograma-titulo">LANZAMIENTO OFICIAL<br>GUÍA IA PARA ABOGADOS</div>
+        <div class="cronograma-subtitulo">LABORATORIO INNOVACION CPACF</div>
+        <div class="cronograma-info-extra">
+        <p>Detalle completo de las acreditaciones. Vení con DNI. Horario de 17 a 18 hs en el segundo piso. Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </div>
+    <div id="overlay"></div>
+    <div class="cronograma-item">
+      <div class="cronograma-hora">18:45 HS</div>
+      <div class="cronograma-linea"></div>
+      <div class="cronograma-texto">
+        <div class="cronograma-titulo">Exposiciones Legaltech</div>
+        <div class="cronograma-subtitulo"></div>
+        <div class="cronograma-info-extra">
+        <p>Detalle completo de las acreditaciones. Vení con DNI. Horario de 17 a 18 hs en el segundo piso. Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="container-column" style="height: 100%; width: 500px; margin-top: 150px; margin-left: 70px; gap: 10rem"> 
+      <div id="overlay"></div>
+
+      <div id="overlay"></div>
+      <div class="cronograma-item">
+        <div class="cronograma-hora">19:30 HS</div>
+        <div class="cronograma-linea"></div>
+        <div class="cronograma-texto">
+          <div class="cronograma-titulo">Sorteo de Beneficios</div>
+          <div class="cronograma-subtitulo"></div>
+          <div class="cronograma-info-extra">
+          <p>Detalle completo de las acreditaciones. Vení con DNI. Horario de 17 a 18 hs en el segundo piso. Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+        <div id="overlay"></div>
+      <div class="cronograma-item">
+        <div class="cronograma-hora">19:40 HS</div>
+        <div class="cronograma-linea"></div>
+        <div class="cronograma-texto">
+          <div class="cronograma-titulo">Cierre Institucional</div>
+          <div class="cronograma-subtitulo">SALÓN AUDITORIO- 1ER PISO<br>AGUSTÍN PESCE</div>
+          <div class="cronograma-info-extra">
+          <p>Detalle completo de las acreditaciones. Vení con DNI. Horario de 17 a 18 hs en el segundo piso. Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+<script>
+const header = document.getElementById('barra-header');
+const logo = document.getElementById('logo-header');
+let animado = false;
+let logoAnimado = false; // <- Esto te faltaba
+
+window.addEventListener('scroll', () => {
+  const scrollPos = window.scrollY;
+
+  // Animar Header
+  if (scrollPos > 50 && !animado) {
+    header.style.position = 'fixed';
+    header.style.top = '0';
+    header.style.left = '0';
+    header.style.width = '100%';
+    header.style.zIndex = '1000';
+    animado = true;
+    header.classList.remove('animarHeader');
+    void header.offsetWidth;
+    header.classList.add('animarHeader');
+  }
+
+  if (scrollPos <= 50 && animado) {
+    animado = false;
+    header.classList.remove('animarHeader');
+    header.style.position = 'relative';
+  }
+
+  // Animación Logo con CSS Transition
+  if (scrollPos > 50 && !logoAnimado) {
+    logo.style.marginLeft = '-100px';
+    logo.classList.add('achicarLogo');
+    logoAnimado = true;
+  }
+
+  if (scrollPos <= 50 && logoAnimado) {
+    logo.classList.remove('achicarLogo');
+    logoAnimado = false;
+    logo.style.marginLeft = '0px';
+  }
+const contenedor = document.querySelector('.contenedor-cronograma');
+const items = document.querySelectorAll('.cronograma-item');
+const overlay = document.getElementById('overlay');
+
+items.forEach(item => {
+  item.addEventListener('click', (e) => {
+    e.stopPropagation(); // Evita que haga click en el overlay sin querer
+
+    // Si ya está expandido, cerrarlo
+    if (item.classList.contains('expandido')) {
+      item.classList.remove('expandido');
+      overlay.classList.remove('activo');
+    } else {
+      // Cierra otros abiertos
+      items.forEach(el => el.classList.remove('expandido'));
+      item.classList.add('expandido');
+      overlay.classList.add('activo');
+    }
+  });
+});
+
+// Cerrar al hacer click fuera (en el overlay)
+overlay.addEventListener('click', () => {
+  items.forEach(el => el.classList.remove('expandido'));
+  overlay.classList.remove('activo');
+});
+});
+
+</script>
+</html>

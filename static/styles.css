@@ -2,7 +2,6 @@
       --bg-background-image: ;
 
       background-image: var(src(--bg-background-image));
-      background: rgb(136, 21, 88);
       border: none;
       border-radius: 20px;
       cursor: pointer;
@@ -17,7 +16,7 @@
       display:flex;
       flex-direction:column;
       align-items: center;
-      flex: 1;
+      
     }
     .container-row{
       display:flex;
@@ -38,3 +37,90 @@
       font-family: 'Playfair Display', serif;
       font-size: 100;
     }
+    @keyframes bajarHeader {
+      from {
+        transform: translateY(-100%);
+        opacity: 1;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 0.75;
+      }
+    }
+    .animarHeader {
+    animation: bajarHeader 0.5s ease forwards;
+    }
+    #logo-header {
+  transition: transform 0.3s ease;
+  }
+
+  .achicarLogo {
+    transform: scale(0.7);
+  }
+  .cronograma-item {
+  background-color: #0E2B3C;
+  color: white;
+  padding: 25px 30px; /* Aumenté el padding */
+  margin: 25px 0;
+  position: relative;
+  clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 100%); /* Más pronunciado */
+  display: flex;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.cronograma-hora {
+  font-weight: bold;
+  font-size: 2em; /* Más grande */
+  margin-right: 20px;
+}
+
+.cronograma-linea {
+  width: 4px; /* Más gruesa */
+  height: 60px; /* Más alta */
+  background-color: #1DA1F2;
+  margin-right: 20px;
+}
+
+.cronograma-texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.cronograma-titulo {
+  font-weight: bold;
+  font-size: 1.3em; /* Más grande */
+  text-transform: uppercase;
+}
+
+.cronograma-subtitulo {
+  font-size: 1em; /* Un poco más grande */
+  color: #C0C0C0;
+}
+#overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+#overlay.activo {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.cronograma-info-extra {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.cronograma-item.expandido .cronograma-info-extra {
+  opacity: 1;
+  max-height: 200px;
+  margin-top: 10px;
+}
