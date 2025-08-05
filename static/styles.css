@@ -1,3 +1,10 @@
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+    }
     .btn {
       --bg-background-image: ;
 
@@ -6,11 +13,10 @@
       border-radius: 20px;
       cursor: pointer;
       font-family: 'Times New Roman', Times, serif;
-      font-size:larger;
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: center;
+      background-color: #00000000;
     }
     .container-column{
       display:flex;
@@ -44,7 +50,7 @@
       }
       to {
         transform: translateY(0);
-        opacity: 0.75;
+        opacity: 0.8;
       }
     }
     .animarHeader {
@@ -98,7 +104,7 @@
   color: #C0C0C0;
 }
 #overlay {
-  position: fixed;
+  position: absolute;
   top: 0; left: 0;
   width: 100%;
   height: 100%;
@@ -123,4 +129,147 @@
   opacity: 1;
   max-height: 200px;
   margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .container-row, .container-column {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .cronograma-item {
+    width: 90%;
+    padding: 15px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cronograma-linea {
+    display: none; /* Ocultamos la línea en móviles si queda fea */
+  }
+
+  .cronograma-hora {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .cronograma-titulo {
+    font-size: 1.2em;
+  }
+
+  #logo-header {
+    width: 80%;
+    height: auto;
+  }
+
+  #barra-header {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  button.btn {
+    width: 90%;
+    font-size: 1em;
+  }
+}
+.organizadores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  perspective: 1000px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 300px;
+  perspective: 1000px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.flip-card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flip-card-front h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  font-size: 1.1em;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5px 0;
+  text-align: center;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  position: relative;
+}
+
+.flip-card-back .blur-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(5px) brightness(0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.flip-card-content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+}
+
+.flip-card-content a {
+  color: #1DA1F2;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .flip-card {
+    height: 250px;
+  }
 }
