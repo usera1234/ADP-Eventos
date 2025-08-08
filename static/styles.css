@@ -4,7 +4,6 @@
       width: 100%;
       height: 100%;
       box-sizing: border-box;
-
     }
     .header-container {
       display: flex;
@@ -196,6 +195,8 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  gap: 2rem;  
+  padding-bottom: 40px;
 }
 .comite-organizativo-titulo {
   width: max-content; 
@@ -205,15 +206,17 @@
 .comite-organizativo-texto{
   height:100px; 
   width: fit-content; 
-  font-size: 70px; 
+  font-size: 70px;  
   font-family: 'Playfair Display', serif;
 }
 .comite-organizativo-row{
   width: 100%; 
   height: auto; 
-  gap: 4rem;
+  gap: 6rem;
   display: flex;
   flex-direction: row;
+  margin-left: 20px;
+  margin-left: 70px;
 }
 #overlay {
   position: absolute;
@@ -363,7 +366,8 @@
   font-family: 'Playfair Display', serif;
   align-self: center;
   margin-top: 100px;
-  margin-left: 570px
+  margin-left: 570px;
+  border-bottom: 2px solid rgb(151, 0, 46);
 }
 @media (max-width: 768px) {
   .html, body {
