@@ -43,7 +43,7 @@
       font-size: 20px;
       display: flex;
       flex-wrap: wrap;
-      gap: 2.5rem;
+      gap: 5rem;
       justify-content: center;
       margin-top: 15px;
       flex-direction: row;
@@ -65,7 +65,7 @@
       align-self: center; 
       align-items: center; 
       font-size: 70px;  
-      margin-left: 190px;
+      margin-left: 300px;
       margin-top: 100px;
       align-content: center;
     }
@@ -103,21 +103,22 @@
     height: 70px;
     width: 100%;
     background-color: rgb(255, 255, 255); 
-    margin-top: 20px; 
-    gap: 25rem;
+    margin-top: 10px; 
+    gap: 35rem;
     display: flex;
     flex-direction: row;
   }
   .banner-agenda-texto{
     font-size: 70px; 
-    margin-left: 190px; 
+    margin-left: 180px; 
+    margin-top: 40px;
     font-family: 'Playfair Display', serif;
     align-content: center;
   }
   .banner-agenda-img{
     height:300px; 
     width: 300px; 
-    margin-top: -40px; 
+    margin-top: -52px; 
     z-index: 0;
   }
   .agenda {
@@ -351,14 +352,13 @@
   flex-direction: column;
   border-radius: 15px;
 }
-.sponsors-items{
+.sponsors-header{
   width: 100%;
-  height: 500px;
+  height: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: rem;
+  align-items: center;  
 }
 .sponsors-titulo{
   width: 100%;
@@ -367,13 +367,41 @@
   font-family: 'Playfair Display', serif;
   align-self: center;
   margin-top: 100px;
-  margin-left: 640px;
+  margin-left: 1270px;
 }
 .sponsors-line{
-  width: 89%;
+  width: 88%;
   height: 2px;
-  margin-left: 105px;
+  margin-left: 0px;
   background-color: rgb(151, 0, 46);
+}
+.sponsors-grid{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 50px;
+}
+.sponsors-item {
+  width: 380px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.sponsors-item-img {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+.sponsors-texto{
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
 }
 @media (max-width: 768px) {
   html, body {
@@ -432,7 +460,7 @@
   .banner-agenda-item {
     width: 100vw;
     height: 20vw;
-    margin-top: 1.2rem;
+    margin-top: 0.4rem;
     padding: 0;
     gap: 7rem;
     flex-direction: row;
@@ -442,14 +470,14 @@
   .banner-agenda-texto {
     font-size: 3rem;
     margin-left: 0;
-    margin-top: 1rem;
+    margin-top: 0rem;
     text-align: center;
   }
 
   .banner-agenda-img {
     height: 120px;
     width: 160px;
-    margin-top: -35px;
+    margin-top: -10px;
   }
 
   .agenda {
