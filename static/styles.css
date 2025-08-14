@@ -54,7 +54,7 @@
       height: 600px; 
       width: 100%; 
       background-color: rgb(151, 0, 46);
-      gap: 5rem; 
+      gap: 6rem; 
       flex: 1; 
       flex-direction: column;
     }
