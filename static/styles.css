@@ -110,7 +110,7 @@
   }
   .banner-agenda-texto{
     font-size: 70px; 
-    margin-left: 180px; 
+    margin-left: 160px; 
     margin-top: 40px;
     font-family: 'Playfair Display', serif;
     align-content: center;
@@ -132,7 +132,7 @@
   }
   .cronograma-imagen {
     z-index: 0; 
-    height: 800px; 
+    height: 110%; 
     width: 100%; 
     position: absolute;
     flex-direction: row;
@@ -260,7 +260,6 @@
   width: 100%;
   height: 300px;
   perspective: 1000px;
-  border: 2px solid #ccc;
   border-radius: 10px;
   overflow: hidden;
 }
