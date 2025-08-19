@@ -485,3 +485,30 @@
     margin-left: 5vw;
   }
 }
+@media (min-width: 1177px) {
+  .banner-agenda-item{
+    gap: 60rem;
+  }
+
+  .cronograma-column{
+    margin-left: 80px;
+  }
+
+  .comite-organizativo-row{
+    gap: 10rem;
+    margin-left: 250px;
+  }
+
+  .sponsors-titulo{
+    margin-left: 1550px;
+    font-size: 100px;
+  }
+
+  .sponsors-grid{
+    gap: 12rem;
+  }
+
+  .sponsors-item{
+    transform: scale(1.3);
+  }
+}
