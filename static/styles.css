@@ -5,27 +5,7 @@
       height: 100%;
       box-sizing: border-box;
     }
-    .banner{
-      padding: 20px;
-      display: flex;
-      height: 600px; 
-      width: 100%; 
-      background-color: rgb(42, 141, 190);
-      gap: 6rem; 
-      flex: 1; 
-      flex-direction: column;
-    }
-    .banner-item{
-      flex-direction: column;
-      height: 150px; 
-      width: 100%; 
-      align-self: center; 
-      align-items: center; 
-      font-size: 70px;  
-      margin-left: 300px;
-      margin-top: 100px;
-      align-content: center;
-    }
+    
     h3{
       font-family: 'Playfair Display', serif;
       font-size: 100;
