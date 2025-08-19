@@ -3,23 +3,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Eventos PDA</title>
+  <script type="module" src="components/app-header.js"></script>
   <link rel="stylesheet" href="static/styles.css">
-  <link rel="icon" type="image/png" href="static/imagenes/escudo-abogacia-negro.png" >
+  <link rel="stylesheet" href="components/header.css">
+  <link rel="icon" type="image/png" href="static/images/escudo-abogacia-negro.png">
 </head>
-<header id="barra-header">
- <div class="header-container">
-   <img id="logo-header" src="static/images/logo-ABOGACIA-ByN.png" alt="LOGO ADP O EVENTOS" class="logo-header">
-   <nav class="nav-links"> 
-    <button class="btn">Cronograma</button>
-    <button class="btn">Speakers</button>
-    <button class="btn">Comite organizador</button>
-    <button class="btn">Sponsors</button>
-    <button class="btn">Empresas LegalTech</button>
-   </div>
-  </div>
- </div>
-</header>
 <body style="overflow-x: hidden;">
+  <app-header></app-header>
   <div class="banner">
    <div class="banner-item">
     <div class="h3" style="color: black;">
@@ -423,52 +413,6 @@
   </div>
 </body>
 <script>
-const header = document.getElementById('barra-header');
-const logo = document.getElementById('logo-header');
-let animado = false;
-let logoAnimado = false;
-
-// NO animar en pantallas chicas
-const esCelular = window.innerWidth < 768;
-
-if (!esCelular) {
-  window.addEventListener('scroll', () => {
-    const scrollPos = window.scrollY;
-
-    // Animar Header
-    if (scrollPos > 50 && !animado) {
-      header.style.position = 'fixed';
-      header.style.top = '0';
-      header.style.left = '0';
-      header.style.width = '100%';
-      header.style.zIndex = '1000';
-      animado = true;
-      header.classList.remove('animarHeader');
-      void header.offsetWidth;
-      header.classList.add('animarHeader');
-    }
-
-    if (scrollPos <= 50 && animado) {
-      animado = false;
-      header.classList.remove('animarHeader');
-      header.style.position = 'relative';
-    }
-
-    // Animación Logo con CSS Transition
-    if (scrollPos > 50 && !logoAnimado) {
-      logo.style.marginLeft = '-100px';
-      logo.classList.add('achicarLogo');
-      logoAnimado = true;
-    }
-
-    if (scrollPos <= 50 && logoAnimado) {
-      logo.classList.remove('achicarLogo');
-      logoAnimado = false;
-      logo.style.marginLeft = '0px';
-    }
-  });
-}
-
 const contenedor = document.querySelector('.contenedor-cronograma');
 const items = document.querySelectorAll('.cronograma-item');
 const overlay = document.getElementById('overlay');
