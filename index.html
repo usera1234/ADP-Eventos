@@ -8,12 +8,14 @@
   <script type="module" src="components/app-banner-agenda.js"></script>
   <script type="module" src="components/app-agenda.js"></script>
   <script type="module" src="components/app-comite-organizativo.js"></script>
+  <script type="module" src="components/app-sponsors.js"></script>
   <link rel="stylesheet" href="static/styles.css">
   <link rel="stylesheet" href="components/header.css">
   <link rel="stylesheet" href="components/banner.css">
   <link rel="stylesheet" href="components/banner-agenda.css">
   <link rel="stylesheet" href="components/agenda.css">
   <link rel="stylesheet" href="components/comite-organizativo.css">
+  <link rel="stylesheet" href="components/sponsors.css">
   <link rel="icon" type="image/png" href="static/images/escudo-abogacia-negro.png">
 </head>
 <body style="overflow-x: hidden;">
@@ -26,50 +28,8 @@
   <app-agenda></app-agenda>
 
   <app-comite-organizativo></app-comite-organizativo>
-  
-  <div id="sponsors" class="sponsors">
-   <div class="sponsors-header">
-    <div class="sponsors-titulo">Sponsors</div>
-    <div class="sponsors-line"></div>
-   </div>
-   <div class="sponsors-grid">
-    <div id="nombre-empresa" class="sponsors-item">
-     <img src="static/images/logo_adp.png" alt="ADP Logo" class="sponsors-item-img">
-     <div class="sponsors-texto">
-      Colegio de Abogados <br> de la Capital Federal
-     </div>
-    </div>
-    <div id="nombre-empresa" class="sponsors-item">
-     <img src="static/images/logo_adp.png" alt="ADP Logo" class="sponsors-item-img">
-     <div class="sponsors-texto">
-      Colegio de Abogados <br> de la Capital Federal
-     </div>
-    </div>
-   </div>
-   <div class="sponsors-grid">
-    <div id="nombre-empresa" class="sponsors-item">
-     <img src="static/images/logo_adp.png" alt="ADP Logo" class="sponsors-item-img">
-     <div class="sponsors-texto">
-      Colegio de Abogados <br> de la Capital Federal
-     </div>
-    </div>
-    <div id="nombre-empresa" class="sponsors-item">
-     <img src="static/images/logo_adp.png" alt="ADP Logo" class="sponsors-item-img">
-     <div class="sponsors-texto">
-      Colegio de Abogados <br> de la Capital Federal
-     </div>
-    </div>
-    <div id="nombre-empresa" class="sponsors-item">
-     <img src="static/images/logo_adp.png" alt="ADP Logo" class="sponsors-item-img">
-     <div class="sponsors-texto">
-      Colegio de Abogados <br> de la Capital Federal
-     </div>
-    </div>
-   </div>
-  </div>
-  <div class="sponsors-header">
-    <div class="sponsors-line">
-    </div>
+
+  <app-sponsors></app-sponsors>
   </div>
 </body>
 <script>
