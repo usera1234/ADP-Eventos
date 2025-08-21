@@ -5,9 +5,13 @@
   <title>Eventos PDA</title>
   <script type="module" src="components/app-header.js"></script>
   <script type="module" src="components/app-banner.js"></script>
+  <script type="module" src="components/app-banner-agenda.js"></script>
+  <script type="module" src="components/app-agenda.js"></script>
   <link rel="stylesheet" href="static/styles.css">
   <link rel="stylesheet" href="components/header.css">
   <link rel="stylesheet" href="components/banner.css">
+  <link rel="stylesheet" href="components/banner-agenda.css">
+  <link rel="stylesheet" href="components/agenda.css">
   <link rel="icon" type="image/png" href="static/images/escudo-abogacia-negro.png">
 </head>
 <body style="overflow-x: hidden;">
@@ -15,129 +19,10 @@
 
   <app-banner></app-banner>
   
- <div class="banner-agenda">
-  <div class="banner-agenda-item">
-   <div class="banner-agenda-texto">CRONOGRAMA</div>
-   <img src="static/images/deco-hexagonos.png" class="banner-agenda-img">
-  </div>
- </div>
- <div id="agenda" class="agenda">
-    <img src="static/images/legaltech.jpg" alt="banner" class="cronograma-imagen">
-    <div class="cronograma-column"> 
-      <div id="overlay"></div>
-      <div class="cronograma-item">
-        <div class="cronograma-hora">17:00 HS</div>
-        <div class="cronograma-linea"></div>
-        <div class="cronograma-texto">
-          <div class="cronograma-titulo">Acreditaciones</div>
-          <div class="cronograma-subtitulo">2do Piso</div>
-          <div class="cronograma-info-extra">
-          <p>Detalle completo de las acreditaciones. Vení con DNI. Horario de 17 a 18 hs en el segundo piso. Lorem ipsum dolor sit amet.</p>
-          </div>
-        </div>
-      </div>
-      <div id="overlay"></div>
-      <div class="cronograma-item">
-        <div class="cronograma-hora">17:15 HS</div>
-        <div class="cronograma-linea"></div>
-        <div class="cronograma-texto">
-          <div class="cronograma-titulo">Apertura Institucional</div>
-          <div class="cronograma-subtitulo">2do Piso<br>DR. RICARDO GIL LAVEDRA <br>DRA.BEATRIZ TORRES</div>
-          <div class="cronograma-info-extra">
-          <p>Detalle completo de las acreditaciones. Vení con DNI. Horario de 17 a 18 hs en el segundo piso. Lorem ipsum dolor sit amet.</p>
-          </div>
-        </div>
-      </div>
-      <div id="overlay"></div>
-      <div class="cronograma-item">
-        <div class="cronograma-hora">17:30 HS</div>
-        <div class="cronograma-linea"></div>
-        <div class="cronograma-texto">
-          <div class="cronograma-titulo">Exposiciones Legaltech</div>
-          <div class="cronograma-subtitulo">2do Piso</div>
-          <div class="cronograma-info-extra">
-          <p>Detalle completo de las acreditaciones. Vení con DNI. Horario de 17 a 18 hs en el segundo piso. Lorem ipsum dolor sit amet.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="cronograma-column"> 
-    <div id="overlay"></div>
-    <div class="cronograma-item">
-      <div class="cronograma-hora">18:30 HS</div>
-      <div class="cronograma-linea"></div>
-      <div class="cronograma-texto">
-        <div class="cronograma-titulo">LANZAMIENTO OFICIAL<br>GUÍA IA PARA ABOGADOS</div>
-        <div class="cronograma-subtitulo">LABORATORIO INNOVACION CPACF</div>
-        <div class="cronograma-info-extra">
-        <p>Detalle completo de las acreditaciones. Vení con DNI. Horario de 17 a 18 hs en el segundo piso. Lorem ipsum dolor sit amet.</p>
-        </div>
-      </div>
-    </div>
-    <div id="overlay"></div>
-    <div class="cronograma-item">
-      <div class="cronograma-hora">18:30 HS</div>
-      <div class="cronograma-linea"></div>
-      <div class="cronograma-texto">
-        <div class="cronograma-titulo">LANZAMIENTO OFICIAL<br>GUÍA IA PARA ABOGADOS</div>
-        <div class="cronograma-subtitulo">LABORATORIO INNOVACION CPACF</div>
-        <div class="cronograma-info-extra">
-        <p>Detalle completo de las acreditaciones. Vení con DNI. Horario de 17 a 18 hs en el segundo piso. Lorem ipsum dolor sit amet.</p>
-        </div>
-      </div>
-    </div>
-    <div id="overlay"></div>
-    <div class="cronograma-item">
-      <div class="cronograma-hora">18:45 HS</div>
-      <div class="cronograma-linea"></div>
-      <div class="cronograma-texto">
-        <div class="cronograma-titulo">Exposiciones Legaltech</div>
-        <div class="cronograma-subtitulo"></div>
-        <div class="cronograma-info-extra">
-        <p>Detalle completo de las acreditaciones. Vení con DNI. Horario de 17 a 18 hs en el segundo piso. Lorem ipsum dolor sit amet.</p>
-        </div>
-      </div>
-    </div>
-    </div>
-    <div class="cronograma-column"> 
-      <div id="overlay"></div>
-      <div class="cronograma-item">
-        <div class="cronograma-hora">17:00 HS</div>
-        <div class="cronograma-linea"></div>
-        <div class="cronograma-texto">
-          <div class="cronograma-titulo">Acreditaciones</div>
-          <div class="cronograma-subtitulo">2do Piso</div>
-          <div class="cronograma-info-extra">
-          <p>Detalle completo de las acreditaciones. Vení con DNI. Horario de 17 a 18 hs en el segundo piso. Lorem ipsum dolor sit amet.</p>
-          </div>
-        </div>
-      </div>
-      <div id="overlay"></div>
-      <div class="cronograma-item">
-        <div class="cronograma-hora">19:30 HS</div>
-        <div class="cronograma-linea"></div>
-        <div class="cronograma-texto">
-          <div class="cronograma-titulo">Sorteo de Beneficios</div>
-          <div class="cronograma-subtitulo"></div>
-          <div class="cronograma-info-extra">
-          <p>Detalle completo de las acreditaciones. Vení con DNI. Horario de 17 a 18 hs en el segundo piso. Lorem ipsum dolor sit amet.</p>
-          </div>
-        </div>
-      </div>
-        <div id="overlay"></div>
-      <div class="cronograma-item">
-        <div class="cronograma-hora">19:40 HS</div>
-        <div class="cronograma-linea"></div>
-        <div class="cronograma-texto">
-          <div class="cronograma-titulo">Cierre Institucional</div>
-          <div class="cronograma-subtitulo">SALÓN AUDITORIO- 1ER PISO<br>AGUSTÍN PESCE</div>
-          <div class="cronograma-info-extra">
-          <p>Detalle completo de las acreditaciones. Vení con DNI. Horario de 17 a 18 hs en el segundo piso. Lorem ipsum dolor sit amet.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <app-banner-agenda></app-banner-agenda>
+
+  <app-agenda></app-agenda>
+
   <div id="Comite-organizativo" class="comite-organizativo"> 
    <div class="comite-organizativo-titulo">
     <h3 class="comite-organizativo-texto">COMITÉ ORGANIZADOR</h3>

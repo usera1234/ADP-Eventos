@@ -1,0 +1,67 @@
+app-agenda .agenda {
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(255, 255, 255); 
+    gap: 3rem;
+  }
+app-agenda  .cronograma-imagen {
+    z-index: 0; 
+    height: 110%; 
+    width: 100%; 
+    position: absolute;
+    flex-direction: row;
+    gap: 5rem
+  }
+
+app-agenda .cronograma-column {
+    display: flex;
+    height: auto; 
+    width: 450px; 
+    margin-top: 100px; 
+    margin-left: 20px;
+    gap: 2rem;
+    flex-direction: column;
+  }
+app-agenda  .cronograma-item {
+  background-color: #0E2B3C;
+  color: white;
+  padding: 25px 20px;
+  margin: 25px;
+  position: relative;
+  clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 100%); 
+  display: flex;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+app-agenda .cronograma-hora {
+  font-weight: bold;
+  font-size: 1.em; 
+  margin-right: 20px;
+}
+
+app-agenda .cronograma-linea {
+  width: 4px; 
+  height: 60px; 
+  background-color: #1DA1F2;
+  margin-right: 20px;
+}
+
+app-agenda .cronograma-texto {
+  display: flex;
+  flex-direction: column;
+}
+
+app-agenda .cronograma-titulo {
+  font-weight: bold;
+  font-size: 1.em; 
+  text-transform: uppercase;
+}
+
+app-agenda .cronograma-subtitulo {
+  font-size: 1em; 
+  color: #C0C0C0;
+}

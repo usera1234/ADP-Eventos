@@ -96,6 +96,3 @@ class AppHeader extends HTMLElement {
 
 customElements.define('app-header', AppHeader);
 
-    // 25) Registrás la etiqueta. Desde acá, <app-header> es una etiqueta válida.
-    customElements.define('app-header', AppHeader);
-
