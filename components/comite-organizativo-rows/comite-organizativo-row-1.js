@@ -1,81 +1,21 @@
+import './comite-organizativo-cards/c.o-1,1.js';
+import './comite-organizativo-cards/c.o-1,2.js';
+import './comite-organizativo-cards/c.o-1,3.js';
+import './comite-organizativo-cards/c.o-1,4.js';
+
 class AppComiteOrganizativoRow1 extends HTMLElement {
     constructor() {
         super(); 
 
         this.innerHTML = `
                 <div class="comite-organizativo-row">
-                    <div class="organizadores-grid">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img src="static/images/ezequielD.jpg" alt="Nombre Persona">
-                            <h3>Nombre Persona</h3>
-                        </div>
-                        <div class="flip-card-back">
-                            <img src="static/images/ezequielD.jpg" class="blur-img" alt="Nombre Persona">
-                            <div class="flip-card-content">
-                            <h3>Nombre Persona</h3>
-                            <p>Cargo o descripción breve.</p>
-                            <a href="static/images/ezequielD.jpg" target="_blank">LinkedIn</a>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="organizadores-grid">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img src="static/images/ezequielD.jpg" alt="Nombre Persona">
-                            <h3>Nombre Persona</h3>
-                        </div>
-                        <div class="flip-card-back">
-                            <img src="static/images/ezequielD.jpg" class="blur-img" alt="Nombre Persona">
-                            <div class="flip-card-content">
-                            <h3>Nombre Persona</h3>
-                            <p>Cargo o descripción breve.</p>
-                            <a href="static/images/ezequielD.jpg" target="_blank">LinkedIn</a>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="organizadores-grid">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img src="static/images/ezequielD.jpg" alt="Nombre Persona">
-                            <h3>Nombre Persona</h3>
-                        </div>
-                        <div class="flip-card-back">
-                            <img src="static/images/ezequielD.jpg" class="blur-img" alt="Nombre Persona">
-                            <div class="flip-card-content">
-                            <h3>Nombre Persona</h3>
-                            <p>Cargo o descripción breve.</p>
-                            <a href="static/images/ezequielD.jpg" target="_blank">LinkedIn</a>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="organizadores-grid">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img src="static/images/ezequielD.jpg" alt="Nombre Persona">
-                            <h3>Nombre Persona</h3>
-                        </div>
-                        <div class="flip-card-back">
-                            <img src="static/images/ezequielD.jpg" class="blur-img" alt="Nombre Persona">
-                            <div class="flip-card-content">
-                            <h3>Nombre Persona</h3>
-                            <p>Cargo o descripción breve.</p>
-                            <a href="https://linkedin.com/in/persona1" target="_blank">LinkedIn</a>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
+                    <app-co-11></app-co-11> 
+
+                    <app-co-12></app-co-12>
+                    
+                    <app-co-13></app-co-13>
+                    
+                    <app-co-14></app-co-14>
                 </div>
         `;
     }
