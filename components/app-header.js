@@ -27,18 +27,15 @@ class AppHeader extends HTMLElement {
          const header = this.querySelector('#barra-header');
     const logo   = this.querySelector('#logo-header');
 
-    // flags guardados en la instancia (no globales)
     this._animado = false;
     this._logoAnimado = false;
 
-    // NO animar en pantallas chicas
     const esCelular = window.innerWidth < 768;
 
     if (!esCelular) {
       this._onScroll = () => {
         const scrollPos = window.scrollY;
 
-        // Animar Header (una vez al cruzar el umbral)
         if (scrollPos > 50 && !this._animado) {
           header.style.position = 'fixed';
           header.style.top = '0';
@@ -47,7 +44,7 @@ class AppHeader extends HTMLElement {
           header.style.zIndex = '1000';
           this._animado = true;
           header.classList.remove('animarHeader');
-          void header.offsetWidth;                // forzar reflow para reiniciar animación
+          void header.offsetWidth;                
           header.classList.add('animarHeader');
         }
 
@@ -61,7 +58,6 @@ class AppHeader extends HTMLElement {
           header.style.zIndex = '';
         }
 
-        // Animación del logo (una vez al cruzar)
         if (scrollPos > 50 && !this._logoAnimado) {
           logo.style.marginLeft = '-100px';
           logo.classList.add('achicarLogo');
@@ -78,7 +74,6 @@ class AppHeader extends HTMLElement {
       window.addEventListener('scroll', this._onScroll, { passive: true });
     }
 
-    // Navegación suave del menú (lo dejamos igual que antes)
     this.querySelectorAll('.btn[data-target]').forEach(btn => {
       btn.addEventListener('click', () => {
         const sel = btn.getAttribute('data-target');

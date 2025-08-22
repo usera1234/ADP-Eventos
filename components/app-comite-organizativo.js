@@ -11,9 +11,11 @@ class AppComiteOrganizativo extends HTMLElement {
                     <<div class="comite-organizativo-titulo">
                         <h3 class="comite-organizativo-texto">COMITÉ ORGANIZADOR</h3>
                     </div>
-                    <app-comite-organizativo-row-1></app-comite-organizativo-row-1>
-                    <app-comite-organizativo-row-2></app-comite-organizativo-row-2>
-                    <app-comite-organizativo-row-3></app-comite-organizativo-row-3>
+                    <app-comite-organizativo-row-1></app-comite-organizativo-row-1> <!-- file:///C:/Proyectos/ADP-Eventos/components/comite-organizativo-rows/comite-organizativo-row-1.js -->
+                    
+                    <app-comite-organizativo-row-2></app-comite-organizativo-row-2> <!-- file:///C:/Proyectos/ADP-Eventos/components/comite-organizativo-rows/comite-organizativo-row-2.js -->  
+                    
+                    <app-comite-organizativo-row-3></app-comite-organizativo-row-3> <!-- file:///C:/Proyectos/ADP-Eventos/components/comite-organizativo-rows/comite-organizativo-row-3.js -->
                 </div>
 
             `;
