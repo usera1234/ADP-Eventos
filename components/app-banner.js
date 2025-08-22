@@ -5,9 +5,13 @@ class AppBanner extends HTMLElement {
         this.innerHTML = `
             <div class="banner">
                 <div class="banner-item">
-                    <div class="banner-texto" style="color: black;">
+                    <div class="banner-texto" style="color: black; margin-left: 50px;">
                         EVENTOS LEGALTECH<br>COLEGIO DE ABOGADOS
                     </div>
+                </div>
+                <div class="banner-item" style="margin-top: 205px">
+                    <div class="banner-line" style="background-color:#2a8dbe; height: 100px; opacity: 0.4;"></div>
+                    <div class="banner-line"></div>
                 </div>
             </div>
         `;

@@ -2,11 +2,12 @@
     width: 100%; 
     height: 180px;
     padding: 20px;
+    background-color: #0d2a3e;
   }
   app-banner-agenda .banner-agenda-item{
     height: 70px;
     width: 100%;
-    background-color: rgb(255, 255, 255); 
+    background-color: #0d2a3e; 
     margin-top: 10px; 
     gap: 35rem;
     display: flex;

@@ -20,15 +20,14 @@ class AppAgenda extends HTMLElement {
      connectedCallback() {
     const root = this;
 
-    // Delegación de eventos: abre/cierra la card clickeada
     this._onClick = (e) => {
       const card = e.target.closest('.cronograma-item');
       if (!card || !root.contains(card)) return;
 
-      const yaAbierta = card.classList.contains('expandido');
+      const Abierta = card.classList.contains('expandido');
       root.querySelectorAll('.cronograma-item.expandido')
           .forEach(el => el.classList.remove('expandido'));
-      if (!yaAbierta) card.classList.add('expandido');
+      if (!Abierta) card.classList.add('expandido');
     };
 
     this.addEventListener('click', this._onClick);
