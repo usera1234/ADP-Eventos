@@ -1,3 +1,6 @@
+import './sponsors-rows/app-sponsors-row-1.js';
+import './sponsors-rows/app-sponsors-row-2.js';
+
 class AppSponsors extends HTMLElement {
     constructor() {
         super();
@@ -8,41 +11,8 @@ class AppSponsors extends HTMLElement {
                 <div class="sponsors-titulo">Sponsors</div>
                 <div class="sponsors-line"></div>
             </div>
-            <div class="sponsors-grid">
-                <div id="nombre-empresa" class="sponsors-item">
-                <img src="static/images/logo_adp.png" alt="ADP Logo" class="sponsors-item-img">
-                <div class="sponsors-texto">
-                Colegio de Abogados <br> de la Capital Federal
-                </div>
-                </div>
-                <div id="nombre-empresa" class="sponsors-item">
-                <img src="static/images/logo_adp.png" alt="ADP Logo" class="sponsors-item-img">
-                <div class="sponsors-texto">
-                Colegio de Abogados <br> de la Capital Federal
-                </div>
-                </div>
-            </div>
-            <div class="sponsors-grid">
-                <div id="nombre-empresa" class="sponsors-item">
-                <img src="static/images/logo_adp.png" alt="ADP Logo" class="sponsors-item-img">
-                <div class="sponsors-texto">
-                Colegio de Abogados <br> de la Capital Federal
-                </div>
-                </div>
-                <div id="nombre-empresa" class="sponsors-item">
-                <img src="static/images/logo_adp.png" alt="ADP Logo" class="sponsors-item-img">
-                <div class="sponsors-texto">
-                Colegio de Abogados <br> de la Capital Federal
-                </div>
-                </div>
-                <div id="nombre-empresa" class="sponsors-item">
-                <img src="static/images/logo_adp.png" alt="ADP Logo" class="sponsors-item-img">
-                <div class="sponsors-texto">
-                Colegio de Abogados <br> de la Capital Federal
-                </div>
-                </div>
-            </div>
-            </div>
+            <app-sponsors-row-1></app-sponsors-row-1>
+            <app-sponsors-row-2></app-sponsors-row-2>
             <div class="sponsors-header">
                 <div class="sponsors-line">
                 </div>
