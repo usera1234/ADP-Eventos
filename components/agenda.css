@@ -37,6 +37,19 @@ app-agenda  .cronograma-item {
   font-family: 'Arial', sans-serif;
 }
 
+app-agenda .cronograma-info-extra {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all .4s ease;
+}
+
+app-agenda .cronograma-item.expandido .cronograma-info-extra {
+  opacity: 1;
+  max-height: 220px;
+  margin-top: 10px;
+}
+
 app-agenda .cronograma-hora {
   font-weight: bold;
   font-size: 1.em; 

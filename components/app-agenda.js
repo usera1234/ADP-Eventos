@@ -15,6 +15,28 @@ class AppAgenda extends HTMLElement {
             </div>
      `;
   }
+
+
+     connectedCallback() {
+    const root = this;
+
+    // Delegación de eventos: abre/cierra la card clickeada
+    this._onClick = (e) => {
+      const card = e.target.closest('.cronograma-item');
+      if (!card || !root.contains(card)) return;
+
+      const yaAbierta = card.classList.contains('expandido');
+      root.querySelectorAll('.cronograma-item.expandido')
+          .forEach(el => el.classList.remove('expandido'));
+      if (!yaAbierta) card.classList.add('expandido');
+    };
+
+    this.addEventListener('click', this._onClick);
+  }
+
+  disconnectedCallback() {
+    if (this._onClick) this.removeEventListener('click', this._onClick);
+  }
 }
 
 customElements.define('app-agenda', AppAgenda);

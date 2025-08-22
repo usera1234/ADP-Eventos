@@ -32,32 +32,4 @@
   <app-sponsors></app-sponsors> <!-- file:///C:/Proyectos/ADP-Eventos/components/app-sponsors.js -->
   </div>
 </body>
-<script>
-const contenedor = document.querySelector('.contenedor-cronograma');
-const items = document.querySelectorAll('.cronograma-item');
-const overlay = document.getElementById('overlay');
-
-items.forEach(item => {
-  item.addEventListener('click', (e) => {
-    e.stopPropagation(); // Evita que haga click en el overlay sin querer
-
-    // Si ya está expandido, cerrarlo
-    if (item.classList.contains('expandido')) {
-      item.classList.remove('expandido');
-      overlay.classList.remove('activo');
-    } else {
-      // Cierra otros abiertos
-      items.forEach(el => el.classList.remove('expandido'));
-      item.classList.add('expandido');
-      overlay.classList.add('activo');
-    }
-  });
-});
-
-// Cerrar al hacer click fuera (en el overlay)
-overlay.addEventListener('click', () => {
-  items.forEach(el => el.classList.remove('expandido'));
-  overlay.classList.remove('activo');
-});
-</script>
 </html>
