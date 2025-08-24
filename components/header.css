@@ -1,0 +1,91 @@
+/* css/components/header.css */
+
+/* Header */
+app-header .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* mobile */
+  padding: 10px 20px;
+  background-color: #232323;
+  width: 100%;
+}
+
+app-header #logo-header {
+  width: 35%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+app-header .btn {
+  background-image: var(--bg-background-image); 
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.3em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #00000000;
+  width: auto;
+  height: auto;
+}
+
+app-header .nav-links {
+  width: auto;
+  height: 100%;
+  padding-right: 50px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+  margin-top: 15px;
+  flex-direction: row;
+}
+
+/* Animación del header (queda global la @keyframes, pero aplica al header) */
+@keyframes bajarHeader {
+  from { transform: translateY(-100%); opacity: 1; }
+  to   { transform: translateY(0);      opacity: 0.8; }
+}
+
+app-header .animarHeader { animation: bajarHeader 0.5s ease forwards; }
+
+app-header #logo-header { transition: transform 0.3s ease; }
+app-header .achicarLogo { transform: scale(0.7); }
+
+/* Responsive del header */
+@media (max-width: 768px) {
+  app-header .header-container {
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    gap: 0.1rem;
+    padding: 0;
+  }
+  app-header #logo-header {
+    width: 90vw;
+    height: auto;
+  }
+  app-header .nav-links {
+    width: 100vw;
+    gap: 0.5rem;
+    margin-left: 0;
+    font-size: 1rem;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+  }
+}
+@media (min-width: 1220px) {
+  app-header .btn{
+    font-size: 1.8em;
+  }
+
+  app-header .nav-links{
+    gap: 3rem;
+  }
+}

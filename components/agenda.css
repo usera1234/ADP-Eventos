@@ -1,0 +1,123 @@
+app-agenda .agenda {
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    height: 753px;
+    width: 100%;
+    background-color: rgb(255, 255, 255); 
+    gap: 3rem;
+  }
+app-agenda  .cronograma-imagen {
+    z-index: 0; 
+    height: 845px; 
+    width: 100%; 
+    position: absolute;
+    flex-direction: row;
+    gap: 5rem
+  }
+
+app-agenda .cronograma-column {
+    display: flex;
+    height: auto; 
+    width: 450px; 
+    margin-left: 60px;
+    margin-top: 50px;
+    gap: 3rem;
+    flex-direction: column;
+  }
+app-agenda  .cronograma-item {
+  background-color: #0E2B3C;
+  color: white;
+  padding: 25px 20px;
+  margin: 25px;
+  position: relative;
+  clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 100%); 
+  display: flex;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+app-agenda .cronograma-info-extra {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all .4s ease;
+}
+
+app-agenda .cronograma-item.expandido .cronograma-info-extra {
+  opacity: 1;
+  max-height: 220px;
+  margin-top: 10px;
+}
+
+app-agenda .cronograma-hora {
+  font-weight: bold;
+  font-size: 1.em; 
+  margin-right: 20px;
+}
+
+app-agenda .cronograma-linea {
+  width: 4px; 
+  height: 60px; 
+  background-color: #1DA1F2;
+  margin-right: 20px;
+}
+
+app-agenda .cronograma-texto {
+  display: flex;
+  flex-direction: column;
+}
+
+app-agenda .cronograma-titulo {
+  font-weight: bold;
+  font-size: 1.em; 
+  text-transform: uppercase;
+}
+
+app-agenda .cronograma-subtitulo {
+  font-size: 1em; 
+  color: #C0C0C0;
+}
+
+@media (max-width: 768px) {
+  app-agenda .agenda {
+    flex-direction: column;
+    position: relative;
+    width: 100vw;
+    height: auto;
+  }
+
+  app-agenda .cronograma-imagen {
+    width: 100vw;
+    height: 100%;
+  }
+
+  app-agenda .cronograma-column {
+    width: 95vw;
+    gap: 1rem;
+    margin-top: 0rem;
+  }
+
+  app-agenda .cronograma-item {
+    width: 80vw;
+    margin: 1rem auto;
+    margin-top: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  app-agenda #agenda {
+    flex-direction: column !important;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1220px) {
+  app-agenda .agenda{
+    gap: 10rem;
+  }
+
+  app-agenda .cronograma-column{
+    margin-left: 55px;
+  }
+}
