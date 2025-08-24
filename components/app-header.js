@@ -14,15 +14,9 @@ class AppHeader extends HTMLElement {
                 <!-- 5) data-target indica a qué sección del index scrollear -->
                 <button class="btn" data-target="#agenda">Cronograma</button>
                 <button class="btn" data-target="#speakers">Speakers</button>
-<<<<<<< HEAD
                 <button class="btn" data-target="#Comite-organizativo">Comité <br> organizador</button>
                 <button class="btn" data-target="#sponsors">Sponsors</button>
                 <button class="btn" data-target="#legaltech">Empresas <br> LegalTech</button>
-=======
-                <button class="btn" data-target="#Comite-organizativo">Comité organizador</button>
-                <button class="btn" data-target="#sponsors">Sponsors</button>
-                <button class="btn" data-target="#legaltech">Empresas LegalTech</button>
->>>>>>> b5a6ab5884908a9f670a2e5627a5c9d4a4f20582
             </nav>
             </div>
           </header>

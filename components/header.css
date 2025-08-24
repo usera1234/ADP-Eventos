@@ -28,11 +28,7 @@ app-header .btn {
   flex-direction: row;
   align-items: center;
   background-color: #00000000;
-<<<<<<< HEAD
   width: auto;
-=======
-  width: 100px;
->>>>>>> b5a6ab5884908a9f670a2e5627a5c9d4a4f20582
   height: auto;
 }
 
@@ -84,7 +80,6 @@ app-header .achicarLogo { transform: scale(0.7); }
     justify-content: center;
   }
 }
-<<<<<<< HEAD
 @media (min-width: 1220px) {
   app-header .btn{
     font-size: 1.8em;
@@ -94,5 +89,4 @@ app-header .achicarLogo { transform: scale(0.7); }
     gap: 3rem;
   }
 }
-=======
->>>>>>> b5a6ab5884908a9f670a2e5627a5c9d4a4f20582
+
