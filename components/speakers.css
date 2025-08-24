@@ -1,6 +1,10 @@
 app-speakers .speakers{
     width: 100%;
+<<<<<<< HEAD
     height: 1200px;
+=======
+    height: 1000px;
+>>>>>>> b5a6ab5884908a9f670a2e5627a5c9d4a4f20582
     background-color: #0d2a3e;
     display: flex;
     flex-direction: column;
@@ -74,6 +78,7 @@ app-speakers .speakers-card-name {
     margin-top: 15px;
     text-align: center;
     color: rgb(0, 0, 0);
+<<<<<<< HEAD
 }
 @media (min-width: 1220px) {
     app-speakers .speakers-grid {
@@ -91,4 +96,6 @@ app-speakers .speakers-card-name {
     app-speakers .speakers-card-name {
         font-size: 40px;
     }
+=======
+>>>>>>> b5a6ab5884908a9f670a2e5627a5c9d4a4f20582
 }

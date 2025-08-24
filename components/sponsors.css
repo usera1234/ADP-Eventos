@@ -57,6 +57,7 @@ app-sponsors .sponsors-item-img {
 app-sponsors .sponsors-texto{
   font-size: 20px;
   font-family: 'Playfair Display', serif;
+<<<<<<< HEAD
 }
 @media (max-width: 768px) {
   app-sponsors .sponsors {
@@ -99,4 +100,6 @@ app-sponsors .sponsors-texto{
   app-sponsors .sponsors-item{
     transform: scale(1.3);
   }
+=======
+>>>>>>> b5a6ab5884908a9f670a2e5627a5c9d4a4f20582
 }
