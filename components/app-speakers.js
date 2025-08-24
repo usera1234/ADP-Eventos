@@ -15,13 +15,42 @@ class AppSpeakers extends HTMLElement {
                 </div>
                 <div class="speakers-grid">
 
-                    <app-speaker-row-1></app-speaker-row-1>
+                    <app-speaker-row-1 id="speaker-row-1"></app-speaker-row-1>
 
-                    <app-speaker-row-2></app-speaker-row-2>
+                    <app-speaker-row-2 id="speaker-row-2"></app-speaker-row-2>
 
                 </div>
             </div>
         `;
+    }
+
+    connectedCallback() {
+    // objetivos
+    const header = this.querySelector('.speakers-header');
+    const row1   = this.querySelector('#speaker-row-1');
+    const row2   = this.querySelector('#speaker-row-2');
+
+    const targets = [header, row1, row2].filter(Boolean);
+
+    // estado inicial oculto (evita "flash" sin animar)
+    targets.forEach(el => el.classList.add('reveal'));
+
+    // observar y animar SOLO una vez
+    this._io = new IntersectionObserver((entries, io) => {
+        entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('animar-speakers');
+            entry.target.classList.remove('reveal');
+            io.unobserve(entry.target);           // ← no se repite
+        }
+        });
+    }, { threshold: 0.2 }); // ~20% visible
+
+    targets.forEach(t => this._io.observe(t));
+    }
+
+    disconnectedCallback() {
+    this._io?.disconnect();
     }
 }
 

@@ -153,7 +153,6 @@ app-comite-organizativo .flip-card-content a {
   text-decoration: none;
   margin-top: 10px;
   font-weight: bold;
-<<<<<<< HEAD
 }
 
 @media (max-width: 768px) {
@@ -191,6 +190,4 @@ app-comite-organizativo .flip-card-content a {
     gap: 10rem;
     margin-left: 20px;
   }
-=======
->>>>>>> b5a6ab5884908a9f670a2e5627a5c9d4a4f20582
 }

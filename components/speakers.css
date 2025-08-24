@@ -76,9 +76,31 @@ app-speakers .speakers-card-name {
     text-align: center;
     color: rgb(255, 255, 255);
 }
+app-speakers .reveal {
+  opacity: 0;
+  transform: translateX(-40px);
+}
+
+/* animación (ya la tenías; le sumo opacidad) */
+@keyframes aparecerSpeakers {
+  from { transform: translateX(-40px); opacity: 0; }
+  to   { transform: translateX(0);     opacity: 1; }
+}
+
+app-speakers .animar-speakers {
+  animation: aparecerSpeakers 0.6s ease-out forwards;
+  will-change: transform, opacity;
+}
+
+/* accesibilidad: respetar reduce-motion */
+@media (prefers-reduced-motion: reduce) {
+  app-speakers .reveal { opacity: 1; transform: none; }
+  app-speakers .animar-speakers { animation: none; }
+}
+
 @media (min-width: 1220px) {
     app-speakers .speakers-header {
-        margin-top: 100px;
+        margin-top: 67px;
     }
 
     app-speakers .speakers-grid {
