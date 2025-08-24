@@ -23,6 +23,7 @@ app-speakers .speakers-titulo{
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    color: rgb(0, 0, 0);
 }
 app-speakers .speakers-line{
     display: block;
@@ -73,9 +74,13 @@ app-speakers .speakers-card-name {
     font-size: 30px;
     margin-top: 15px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 @media (min-width: 1220px) {
+    app-speakers .speakers-header {
+        margin-top: 100px;
+    }
+
     app-speakers .speakers-grid {
         gap:10rem;
     }

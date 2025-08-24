@@ -115,9 +115,15 @@ app-agenda .cronograma-subtitulo {
 @media (min-width: 1220px) {
   app-agenda .agenda{
     gap: 10rem;
+    height: 100%;
+  }
+
+  app-agenda .cronograma-imagen {
+    height: 1020px;
   }
 
   app-agenda .cronograma-column{
     margin-left: 55px;
+    gap: 5rem;
   }
 }
