@@ -45,7 +45,7 @@
         text-align: center;
       }
     }
-    @media (min-width: 1220px) {
+    @media (min-width: 1600px) {
       app-banner .banner-texto {
         margin-left: 165px;
       }

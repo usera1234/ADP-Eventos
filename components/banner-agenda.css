@@ -26,7 +26,6 @@
     width: 300px; 
     margin-top: -52px; 
     z-index: 0;
-<<<<<<< HEAD
   }
 @media (max-width: 768px) {
   app-banner-agenda .banner-agenda {
@@ -59,11 +58,9 @@
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1600px) {
   app-banner-agenda .banner-agenda-item{
     gap: 60rem;
   }
 }
-=======
-  }
->>>>>>> b5a6ab5884908a9f670a2e5627a5c9d4a4f20582
+

@@ -80,13 +80,22 @@ app-header .achicarLogo { transform: scale(0.7); }
     justify-content: center;
   }
 }
-@media (min-width: 1220px) {
+@media (min-width: 1600px) {
   app-header .btn{
     font-size: 1.8em;
   }
 
   app-header .nav-links{
     gap: 3rem;
+  }
+}
+@media (max-width: 1600px) and (min-width: 769px) {
+  app-header .btn{
+    font-size: 1.3em;
+  }
+
+  app-header .nav-links{
+    gap: 2rem;
   }
 }
 

@@ -185,7 +185,7 @@ app-comite-organizativo .flip-card-content a {
     align-items: center;
   }
 }
-@media (min-width: 1220px) {
+@media (min-width: 1600px) {
   app-comite-organizativo .comite-organizativo-row{
     gap: 10rem;
     margin-left: 20px;

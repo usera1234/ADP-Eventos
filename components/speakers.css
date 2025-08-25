@@ -98,7 +98,7 @@ app-speakers .animar-speakers {
   app-speakers .animar-speakers { animation: none; }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1600px) {
     app-speakers .speakers-header {
         margin-top: 67px;
     }
@@ -117,5 +117,26 @@ app-speakers .animar-speakers {
 
     app-speakers .speakers-card-name {
         font-size: 40px;
+    }
+}
+@media (max-width: 1500px), (min-width: 769px) {
+    app-speakers .speakers-header {
+        margin-top: 115px;
+    }
+
+    app-speakers .speakers-grid {
+        gap:7rem;
+    }
+
+    app-speakers .speakers-row {
+        gap: 3rem;
+    }
+
+    app-speakers .speakers-item {
+        transform: scale(1.1);
+    }
+
+    app-speakers .speakers-card-name {
+        font-size: 35px;
     }
 }
