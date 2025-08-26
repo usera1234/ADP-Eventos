@@ -119,9 +119,9 @@ app-speakers .animar-speakers {
         font-size: 40px;
     }
 }
-@media (max-width: 1400px), (min-width: 769px) {
+@media (max-width: 1500px), (min-width: 769px) {
     app-speakers .speakers-header {
-        margin-top: 100px;
+        margin-top: 90px;
     }
 
     app-speakers .speakers-grid {
