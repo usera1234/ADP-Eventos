@@ -66,6 +66,10 @@ app-sponsors .sponsors-texto{
     border-radius: 10px;
   }
 
+  app-sponsors .sponsors-grid {
+    flex-direction: column;
+  }
+
   app-sponsors .sponsors-items {
     width: 100vw;
     flex-direction: column;
@@ -86,6 +90,7 @@ app-sponsors .sponsors-texto{
     margin-left: 5vw;
   }
 }
+
 @media (min-width: 1600px) {
   app-sponsors .sponsors-titulo{
     margin-left: 1550px;
