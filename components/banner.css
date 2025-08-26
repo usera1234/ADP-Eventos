@@ -43,6 +43,27 @@
     width: auto;
     height: auto;
     }
+
+    app-banner .button-register {
+      width: 300px; 
+      height: 100px; 
+      border-radius: 20px; 
+      display: flex; 
+      align-items: center; 
+      padding-left: 50px; 
+      background-color: #1DA1F2; 
+      opacity: 1; 
+      color: black; 
+      font-size: 60px; 
+      margin-left: 100px;
+      cursor: pointer;
+      font-family: 'Times New Roman', Times, serif;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border:#1772aa;
+      text-decoration: none;
+    }
     
     @media (max-width: 768px) {
       app-banner .banner {
