@@ -14,7 +14,7 @@ class AppBanner extends HTMLElement {
                 <div class="banner-item" >
                     <div class="banner-line-register">
                         <div class="banner-item" style="margin-top: 40px;">
-                            <div class="banner-texto" style="margin-left: 10px; font-size: 60px">
+                            <div class="banner-texto" style="margin-left: 190px; font-size: 60px">
                                 Registrate aca:
                             </div>
                             <div>
