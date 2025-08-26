@@ -8,12 +8,12 @@ class AppCO11 extends HTMLElement {
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="static/images/ezequielD.jpg" alt="Nombre Persona">
-                            <h3>Ezequiel</h3>
+                            <h3>Ezequiel Domínguez</h3>
                         </div>
                         <div class="flip-card-back">
                             <img src="static/images/ezequielD.jpg" class="blur-img" alt="Nombre Persona">
                             <div class="flip-card-content">
-                            <h3>Nombre Persona</h3>
+                            <h3>Ezequiel Domínguez</h3>
                             <p>Cargo o descripción breve.</p>
                             <a href="static/images/ezequielD.jpg" target="_blank">LinkedIn</a>
                             </div>
