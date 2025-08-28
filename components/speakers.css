@@ -81,6 +81,14 @@ app-speakers .reveal {
   transform: translateX(-40px);
 }
 
+app-speakers .speakers-card-role {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(200, 200, 200);
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /* animación (ya la tenías; le sumo opacidad) */
 @keyframes aparecerSpeakers {
   from { transform: translateX(-100px); opacity: 0; }

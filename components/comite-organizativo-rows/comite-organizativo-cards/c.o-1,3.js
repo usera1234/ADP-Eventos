@@ -14,7 +14,7 @@ class AppCo13 extends HTMLElement {
                             <img src="static/images/speakers-cards/agustin-pesce.jpeg" class="blur-img" alt="Nombre Persona">
                             <div class="flip-card-content">
                             <h3>Agustin Pesce</h3>
-                            <p>Cargo o descripción breve.</p>
+                            <p>Abogado Especializado en RegTech.</p>
                             <a href="https://www.linkedin.com/in/agustinpesce/" target="_blank">LinkedIn</a>
                             </div>
                         </div>

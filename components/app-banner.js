@@ -8,7 +8,7 @@ class AppBanner extends HTMLElement {
             <div class="banner">
                 <div class="banner-item">
                     <div class="banner-texto" style="color: black;">
-                        EVENTOS LEGALTECH<br>COLEGIO DE ABOGADOS
+                        FERIA LEGALTECH<br>COLEGIO DE ABOGADOS
                     </div>
                 </div>
                 <div class="banner-item" >

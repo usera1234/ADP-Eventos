@@ -1,7 +1,7 @@
 import './speakers-cards/app-speaker-card-deborah-paola-ferraro.js'
+import './speakers-cards/app-speaker-card-agustin-pesce.js'
+import './speakers-cards/app-speaker-card-ricardo-rodolfo-gil-lavedra.js'
 import './speakers-cards/app-speaker-card-ricardo-guerra.js'
-import './speakers-cards/app-speaker-card-mario-adaro.js'
-import './speakers-cards/app-speaker-card-juan-gustavo-corvalan.js'
 
 class AppSpeakerRow1 extends HTMLElement {
     constructor (){
@@ -9,14 +9,13 @@ class AppSpeakerRow1 extends HTMLElement {
 
             this.innerHTML = `
                 <div class="speakers-row">
+                    <app-speaker-card-agustin-pesce></app-speaker-card-agustin-pesce>
+
+                    <app-speaker-card-ricardo-rodolfo-gil-lavedra></app-speaker-card-ricardo-rodolfo-gil-lavedra>
 
                     <app-speaker-card-deborah-paola-ferraro></app-speaker-card-deborah-paola-ferraro>
 
                     <app-speaker-card-ricardo-guerra></app-speaker-card-ricardo-guerra>
-
-                    <app-speaker-card-mario-adaro></app-speaker-card-mario-adaro>
-
-                    <app-speaker-card-juan-gustavo-corvalan></app-speaker-card-juan-gustavo-corvalan> 
 
                 </div>
             `

@@ -3,16 +3,16 @@ class AppSponsorsRow1 extends HTMLElement {
     super();
     this.innerHTML = `
             <div class="sponsors-grid">
-                <div id="nombre-empresa" class="sponsors-item">
+                <div id="adp" class="sponsors-item">
                 <img src="static/images/logo_adp.png" alt="ADP Logo" class="sponsors-item-img">
                 <div class="sponsors-texto">
                 Colegio de Abogados <br> de la Capital Federal
                 </div>
                 </div>
-                <div id="nombre-empresa" class="sponsors-item">
-                <img src="static/images/logo_adp.png" alt="ADP Logo" class="sponsors-item-img">
+                <div id="Dropbox" class="sponsors-item">
+                <img src="static/images/sponsors/dropbox.jpg" alt="Sponsor Dropbox" class="sponsors-dropbox-img">
                 <div class="sponsors-texto">
-                Colegio de Abogados <br> de la Capital Federal
+                 Dropbox
                 </div>
             </div>
     `;

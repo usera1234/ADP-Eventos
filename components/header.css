@@ -24,12 +24,14 @@ app-header .btn {
   cursor: pointer;
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.3em;
-  display: flex;
+  display: flex;  
   flex-direction: row;
   align-items: center;
-  background-color: #00000000;
-  width: auto;
-  height: auto;
+  justify-content: center;
+  text-align: center;
+  background-color: #091e2c;
+  color: black;
+  width: 160px;
 }
 
 app-header .nav-links {

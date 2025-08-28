@@ -1,6 +1,5 @@
 import './comite-organizativo-rows/comite-organizativo-row-1.js';
 import './comite-organizativo-rows/comite-organizativo-row-2.js';
-import './comite-organizativo-rows/comite-organizativo-row-3.js';
 
 class AppComiteOrganizativo extends HTMLElement {
     constructor() {
@@ -15,7 +14,6 @@ class AppComiteOrganizativo extends HTMLElement {
                     
                     <app-comite-organizativo-row-2></app-comite-organizativo-row-2> <!-- file:///C:/Proyectos/ADP-Eventos/components/comite-organizativo-rows/comite-organizativo-row-2.js -->  
                     
-                    <app-comite-organizativo-row-3></app-comite-organizativo-row-3> <!-- file:///C:/Proyectos/ADP-Eventos/components/comite-organizativo-rows/comite-organizativo-row-3.js -->
                 </div>
 
             `;

@@ -14,7 +14,7 @@ class AppCO11 extends HTMLElement {
                             <img src="static/images/ezequielD.jpg" class="blur-img" alt="Nombre Persona">
                             <div class="flip-card-content">
                             <h3>Ezequiel Domínguez</h3>
-                            <p>Cargo o descripción breve.</p>
+                            <p>Abogado especializado en <br>Prevención de Lavado de Activos.</p>
                             <a href="static/images/ezequielD.jpg" target="_blank">LinkedIn</a>
                             </div>
                         </div>

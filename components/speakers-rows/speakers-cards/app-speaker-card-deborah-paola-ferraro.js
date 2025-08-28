@@ -15,6 +15,9 @@ class AppSpeakerCardDeborahPaolaFerraro extends HTMLElement {
                     <div class="speakers-card-name">
                         Deborah Paola <br> Ferraro
                     </div>
+                    <div class="speakers-card-role">
+                        Dropbox y su funcionalidad para abogados
+                    </div>
                 </div>
             `
     }
