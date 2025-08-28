@@ -4,10 +4,10 @@ class AppButtonRegister extends HTMLElement {
         
         this.innerHTML = `
             <div class="banner-texto" style="margin-left: 10px">
-                Registrate aca:
+             <a onclick="window.location.href='https://entrawiz.app/events/feria-legaltech-2025-cpacf/register'>
+                Registrate aca!
+             </a>
             </div>
-            <button class="btn" onclick="window.location.href='https://entrawiz.app/events/feria-legaltech-2025-cpacf/register'"
-            style="color: black;"  >
         `
     }      
 }
