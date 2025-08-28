@@ -86,6 +86,8 @@ app-header .achicarLogo { transform: scale(0.7); }
 @media (min-width: 1600px) {
   app-header .btn{
     font-size: 1.8em;
+    width: 195px;
+    height: 80px;
   }
 
   app-header .nav-links{
