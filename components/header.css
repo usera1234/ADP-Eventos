@@ -32,6 +32,7 @@ app-header .btn {
   background-color: #091e2c;
   color: black;
   width: 160px;
+  height: 55px
 }
 
 app-header .nav-links {

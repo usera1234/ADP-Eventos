@@ -15,7 +15,7 @@ app-comite-organizativo .comite-organizativo-titulo {
   width: max-content; 
   height: 200px; 
   align-items: center;
-  color: white;
+  color: black;
 
 }
 app-comite-organizativo .comite-organizativo-texto{
