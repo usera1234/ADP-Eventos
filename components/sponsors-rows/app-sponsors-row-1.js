@@ -11,7 +11,7 @@ class AppSponsorsRow1 extends HTMLElement {
                 </div>
                 <div id="Dropbox" class="sponsors-item">
                 <img src="static/images/sponsors/dropbox.jpg" alt="Sponsor Dropbox" class="sponsors-dropbox-img">
-                <div class="sponsors-texto">
+                <div class="sponsors-texto" style="margin-left: 10px;">
                  Dropbox
                 </div>
             </div>
