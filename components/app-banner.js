@@ -1,5 +1,3 @@
-import './app-button-register.js'
-
 class AppBanner extends HTMLElement {
     constructor(){
         super();
