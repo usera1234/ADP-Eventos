@@ -18,12 +18,15 @@
       align-items: first baseline; 
       font-size: 70px;                                  
       position: relative;
+      margin-top: 0px;
     }
     app-banner .banner-texto{
       font-family: 'Playfair Display', serif;
       font-size: 70px;
       align-content: center;
-      margin-left: 180px;
+      margin-left: 210px;
+      margin-top: 50px;
+      width: 1950px;
     }
     app-banner .banner-image{
       width: 100%;
@@ -103,25 +106,31 @@
     @media (max-width: 768px) {
       app-banner .banner {
         margin: 0;
-        width: 100vw;
-        height: 505px;
+        width: 100%;
+        height: auto;
         padding: 0px;
-        gap: 2rem;
         flex-direction: column;
+      }
+
+      app-banner .cronograma-imagen {
+        height: 300px;
       }
 
       app-banner .banner-item {
         font-size: 2rem;
-        width: 100%;
+        width: auto;
         margin-left: 0px;
-        margin-top: 2rem;
-        text-align: center;
+        margin-top: 0px;
+        text-align:justify;
         display: flex;
         flex-direction: column;
       }
 
       app-banner .banner-texto {
+        width: 100%;
         margin-left: 0px;
+        padding-right: 10px;
+        margin-top: 10px;
         font-size: 3rem;
       }
 
@@ -144,7 +153,7 @@
   }
     @media (min-width: 1700px) {
       app-banner .banner-texto {
-        margin-left: 165px;
+        margin-left: 190px;
       }
       
       app-banner .banner-line{

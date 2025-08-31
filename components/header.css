@@ -74,6 +74,7 @@ app-header .achicarLogo { transform: scale(0.7); }
   }
   app-header .nav-links {
     width: 100vw;
+    height: 220px;
     gap: 0.5rem;
     margin-left: 0;
     font-size: 1rem;
