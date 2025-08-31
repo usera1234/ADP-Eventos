@@ -219,6 +219,6 @@ app-comite-organizativo .flip-card-content a {
 }
 @media (max-width: 1300px) and (min-width: 768px) {
   app-comite-organizativo .comite-organizativo-row {
-    gap: 0.5rem;
+    gap: 1rem;
   }
 }
