@@ -16,7 +16,6 @@ class AppHeader extends HTMLElement {
                 <button class="btn" data-target="#speakers">Speakers</button>
                 <button class="btn" data-target="#Comite-organizativo">Comité <br> organizador</button>
                 <button class="btn" data-target="#sponsors">Sponsors</button>
-                <button class="btn" data-target="#legaltech">Empresas <br> LegalTech</button>
             </nav>
             </div>
           </header> 
