@@ -8,8 +8,8 @@ class AppBanner extends HTMLElement {
                 <div class="banner-item" >
                     <div class="banner-line-register"">
                         <div class="banner-item">
-                            <div class="banner-texto" style="text-decoration: none; font-size: 60px">
-                              <a href="https://entrawiz.app/events/feria-legaltech-2025-cpacf/register" target="_blank" style="text-decoration: none;">
+                            <div class="banner-texto" style="text-decoration: none;">
+                              <a href="https://entrawiz.app/events/feria-legaltech-2025-cpacf/register" target="_blank" style="text-decoration: none; color:black;">
                                 Registrate aca!
                               </a>
                             </div>

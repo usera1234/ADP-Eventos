@@ -86,6 +86,7 @@ app-agenda .cronograma-subtitulo {
     position: relative;
     width: 100vw;
     height: auto;
+    gap: 10px;
   }
 
   app-agenda .cronograma-imagen {
@@ -97,6 +98,8 @@ app-agenda .cronograma-subtitulo {
     width: 95vw;
     gap: 1rem;
     margin-top: 0rem;
+    margin-left: 0px;
+    padding-right: 10px;
   }
 
   app-agenda .cronograma-item {

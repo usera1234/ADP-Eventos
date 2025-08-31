@@ -22,11 +22,12 @@
     }
     app-banner .banner-texto{
       font-family: 'Playfair Display', serif;
-      font-size: 70px;
+      font-size: 80px;
       align-content: center;
       margin-left: 210px;
       margin-top: 50px;
       width: 1950px;
+      color: black;
     }
     app-banner .banner-image{
       width: 100%;
@@ -135,11 +136,11 @@
       }
 
       app-banner .banner-line-register{
-      width: 400px;
+      width: 500px;
       height: auto;
       display: flex;
       flex-direction: column;
-      margin-left: 0px;
+      margin-left: -10px;
       }
 
       app-banner .button-register {
