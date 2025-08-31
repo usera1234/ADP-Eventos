@@ -1,9 +1,10 @@
 app-speakers .speakers{
     width: 100%;
-    height: 1200px;
+    height: auto;
     background-color: #0d2a3e;
     display: flex;
     flex-direction: column;
+    padding-bottom: 150px;
 }
 app-speakers .speakers-header{
     width: 100%;
