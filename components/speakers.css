@@ -12,7 +12,7 @@ app-speakers .speakers-header{
     flex-direction: column;
     justify-content: center;
     align-items: center;  
-    margin-top: 90px;
+    margin-top: 0px;
 }
 app-speakers .speakers-titulo{
     width: 100%;
@@ -128,10 +128,6 @@ app-speakers .animar-speakers {
 }
 
 @media (min-width: 1600px) {
-    app-speakers .speakers-header {
-        margin-top: 67px;
-    }
-
     app-speakers .speakers-titulo {
         margin-top: 30px;
     }
