@@ -10,7 +10,7 @@ class AppSponsorsRow1 extends HTMLElement {
                 </div>
                 </div>
                 <div id="Dropbox" class="sponsors-item">
-                <img src="static/images/sponsors/dropbox.jpg" alt="Sponsor Dropbox" class="sponsors-dropbox-img">
+                <img src="static/images/sponsors/dropbox.jpg" alt="Sponsor Dropbox" class="sponsors-item-img">
                 <div class="sponsors-texto" style="margin-left: 10px;">
                  Dropbox
                 </div>
