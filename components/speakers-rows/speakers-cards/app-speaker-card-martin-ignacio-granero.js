@@ -10,7 +10,7 @@ class AppSpeakerCardMartinIgnacioGranero extends HTMLElement {
                         href="https://www.linkedin.com/in/mart%C3%ADn-i-granero-33b3a015/?originalSubdomain=ar">
                     </app-speakers-linkedin>
                     <div class="speakers-card">
-                        <img src="static/images/speakers-cards/martin-ignacio-granero.jpeg" class="speakers-card">
+                        <img src="static/images/speakers-cards/martin-ignacio-granero.jpg" class="speakers-card">
                     </div>
                     <div class="speakers-card-name">
                         Martín Ignacio <br> Granero

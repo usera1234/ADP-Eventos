@@ -1,20 +1,30 @@
 app-comite-organizativo .comite-organizativo{
-  height: fit-content; 
-  width: 90%; 
-  background-color: #0d2a3e; 
-  border-radius: 20px; 
-  margin-top: 150px; 
-  margin-left: 80px;
-  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: white;
   display: flex;
   flex-direction: column;
-  gap: 2rem;  
-  padding-bottom: 40px;
 }
+
+app-comite-organizativo .comite-organizativo-card {
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+  border-radius: 20px; 
+  background-color: #0d2a3e;
+  gap: 2rem; 
+  padding-bottom: 40px; 
+  justify-content: center;
+}
+
 app-comite-organizativo .comite-organizativo-titulo {
   width: max-content; 
   height: 200px; 
-  align-items: center;
+  align-self: center;
   color: black;
 
 }
@@ -27,10 +37,10 @@ app-comite-organizativo .comite-organizativo-texto{
 app-comite-organizativo .comite-organizativo-row{
   width: 100%; 
   height: auto; 
-  gap: 6rem;
+  justify-content: center;
   display: flex;
   flex-direction: row;
-  margin-left: 5px;
+  gap: 10%;
 }
 app-comite-organizativo #overlay {
   position: absolute;
@@ -61,8 +71,10 @@ app-comite-organizativo .cronograma-item.expandido .cronograma-info-extra {
 }
 
 app-comite-organizativo .organizadores-grid {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  align-self: flex-start;
   gap: 20px;
   perspective: 1000px;
 }
@@ -189,9 +201,24 @@ app-comite-organizativo .flip-card-content a {
     align-items: center;
   }
 }
+@media (min-width: 800px), (max-width: 1500px) {
+  app-comite-organizativo .comite-organizativo-row {
+    gap: 5%;
+  }
+}
+
 @media (min-width: 1600px) {
-  app-comite-organizativo .comite-organizativo-row{
-    gap: 10rem;
-    margin-left: 20px;
+   app-comite-organizativo .comite-organizativo-row {
+    gap: 13%;
+  }
+}
+@media (max-width: 1500px) and (min-width: 1300px) {
+  app-comite-organizativo .comite-organizativo-row {
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 1300px) and (min-width: 768px) {
+  app-comite-organizativo .comite-organizativo-row {
+    gap: 0.5rem;
   }
 }

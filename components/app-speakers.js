@@ -32,8 +32,9 @@ class AppSpeakers extends HTMLElement {
     const header = this.querySelector('.speakers-header');
     const row1   = this.querySelector('#speaker-row-1');
     const row2   = this.querySelector('#speaker-row-2');
+    const row3   = this.querySelector('#speaker-row-3');
 
-    const targets = [header, row1, row2].filter(Boolean);
+    const targets = [header, row1, row2, row3].filter(Boolean);
 
     // estado inicial oculto (evita "flash" sin animar)
     targets.forEach(el => el.classList.add('reveal'));

@@ -5,8 +5,9 @@ app-agenda .agenda {
     height: auto;
     width: 100%;
     background-color: rgb(255, 255, 255); 
-    gap: 3rem;
+    gap: 5rem;
     z-index: 1;
+    justify-content: center;
   }
 app-agenda  .cronograma-imagen {
     z-index: 0; 
@@ -21,10 +22,10 @@ app-agenda .cronograma-column {
     display: flex;
     height: auto; 
     width: 450px; 
-    margin-left: 20px;
     margin-top: 50px;
     gap: 3rem;
     flex-direction: column;
+    justify-items: center;
   }
 app-agenda  .cronograma-item {
   background-color: #0E2B3C;
@@ -98,7 +99,6 @@ app-agenda .cronograma-subtitulo {
     width: 95vw;
     gap: 1rem;
     margin-top: 0rem;
-    margin-left: 0px;
     padding-right: 10px;
   }
 
@@ -118,8 +118,8 @@ app-agenda .cronograma-subtitulo {
 
 @media (max-width: 1500px) and (min-width: 769px) {
   app-agenda .agenda {
+    width: 100%;
     height: auto;
-    gap: 1.5rem;
   }
 
   app-agenda .cronograma-imagen {
@@ -128,7 +128,7 @@ app-agenda .cronograma-subtitulo {
   }
 
   app-agenda .cronograma-column {
-    margin-left: 10px;
+    width: 100%;
     height: auto;
     gap: 2rem;
     margin-top: 20px;
@@ -136,12 +136,13 @@ app-agenda .cronograma-subtitulo {
 }
 @media (min-width: 1600px) {
   app-agenda .agenda{
-    gap: 10rem;
+    width: 100%;
+    gap: 5rem;
     height: 100%;
   }
 
   app-agenda .cronograma-column{
-    margin-left: 55px;
     gap: 5rem;
   }
 }
+

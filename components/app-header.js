@@ -19,7 +19,7 @@ class AppHeader extends HTMLElement {
                 <button class="btn" data-target="#legaltech">Empresas <br> LegalTech</button>
             </nav>
             </div>
-          </header>
+          </header> 
     `;
     }
 
@@ -59,7 +59,6 @@ class AppHeader extends HTMLElement {
         }
 
         if (scrollPos > 50 && !this._logoAnimado) {
-          logo.style.marginLeft = '-100px';
           logo.classList.add('achicarLogo');
           this._logoAnimado = true;
         }
