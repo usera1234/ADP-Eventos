@@ -14,7 +14,7 @@ class AppCo12 extends HTMLElement {
                             <img src="static/images/speakers-cards/beatriz-torres.jpeg" class="blur-img" alt="Nombre Persona">
                             <div class="flip-card-content">
                             <h3>Beatriz Torres</h3>
-                            <p>Consejera del CPACF Ñ y titular <br>de la Unidad de Innovacion<br> y Transformación Digital.</p>
+                            <p>Consejera del CPACF y titular <br>de la Unidad de Innovacion<br> y Transformación Digital.</p>
                             <a href="https://www.linkedin.com/in/beatriz-torres-1ba157258/" target="_blank">LinkedIn</a>
                             </div>
                         </div>
