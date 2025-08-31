@@ -101,19 +101,27 @@ app-header .achicarLogo { transform: scale(0.7); }
   }
 }
 @media (max-width: 1600px) and (min-width: 769px) {
+  app-header .header-container {
+    height: auto;
+    flex-direction: column;
+    gap: 0.1rem;
+    padding: 0;
+  }
+
   app-header #logo-header {
-    width: 400px;
+    width: 600px;
     margin-left: -50px;
   }
 
 
 
   app-header .btn{
-    width: 140;
+    width: 160;
     font-size: 1.1em;
   }
 
   app-header .nav-links{
+    padding-bottom: 10px;
     gap: 2rem;
   }
 }
