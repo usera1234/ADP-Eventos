@@ -4,25 +4,23 @@ class AppSponsorsRow2 extends HTMLElement {
     
     this.innerHTML = `
             <div class="sponsors-grid">
-                <div id="nombre-empresa" class="sponsors-item">
-                <img src="static/images/logo_adp.png" alt="ADP Logo" class="sponsors-item-img">
+                <div id="LegalRun" class="sponsors-item">
+                <app-sponsors-link
+                  href="https://legalrun.tech/" src="static/images/sponsors/logo-legalrun.png" clase="sponsors-item-img">
+                </app-sponsors-link>
                 <div class="sponsors-texto">
-                Colegio de Abogados <br> de la Capital Federal
+                La solución robótica de seguimiento y gestión de causas judiciales más revolucionaria de LATAM.
                 </div>
                 </div>
-                <div id="nombre-empresa" class="sponsors-item">
-                <img src="static/images/logo_adp.png" alt="ADP Logo" class="sponsors-item-img">
+                <div id="Thomson-Reuters" class="sponsors-item">
+                <app-sponsors-link
+                  href="https://www.thomsonreuters.com.ar/es.html" src="static/images/sponsors/thomson-reuters.png" clase="sponsors-item-img" estilo="width:200px">
+                </app-sponsors-link>
                 <div class="sponsors-texto">
-                Colegio de Abogados <br> de la Capital Federal
+                Thomson Reuters Argentina, líderes mundiales en información y soluciones para empresas y profesionales. 
                 </div>
                 </div>
-                <div id="nombre-empresa" class="sponsors-item">
-                <img src="static/images/logo_adp.png" alt="ADP Logo" class="sponsors-item-img">
-                <div class="sponsors-texto">
-                Colegio de Abogados <br> de la Capital Federal
-                </div>
-                </div>
-            </div>
+                
     `;
   }
 }

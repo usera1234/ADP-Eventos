@@ -1,5 +1,9 @@
 import './sponsors-rows/app-sponsors-row-1.js';
 import './sponsors-rows/app-sponsors-row-2.js';
+import './sponsors-rows/app-sponsors-row-3.js';
+import './sponsors-rows/app-sponsors-row-4.js';
+import './sponsors-rows/app-sponsors-row-5.js';
+import './sponsors-rows/app-sponsors-row-6.js';
 
 class AppSponsors extends HTMLElement {
     constructor() {
@@ -15,9 +19,17 @@ class AppSponsors extends HTMLElement {
 
             <app-sponsors-row-2></app-sponsors-row-2>   <!-- file:///C:/Proyectos/ADP-Eventos/components/sponsors-row/app-sponsors-row-2.js -->
             <div class="sponsors-header">
-                <div class="sponsors-line">
-                </div>
+                <div class="sponsors-titulo">Empresas Legaltech</div>
+                <div class="sponsors-line"></div>
             </div>
+            <app-sponsors-row-3></app-sponsors-row-3>   <!-- file:///C:/Proyectos/ADP-Eventos/components/sponsors-row/app-sponsors-row-3.js -->
+
+            <app-sponsors-row-4></app-sponsors-row-4>   <!-- file:///C:/Proyectos/ADP-Eventos/components/sponsors-row/app-sponsors-row-4.js -->
+
+            <app-sponsors-row-5></app-sponsors-row-5>   <!-- file:///C:/Proyectos/ADP-Eventos/components/sponsors-row/app-sponsors-row-5.js -->
+
+            <app-sponsors-row-6></app-sponsors-row-6>   <!-- file:///C:/Proyectos/ADP-Eventos/components/sponsors-row/app-sponsors-row-6.js -->
+
         `;    
     }
 }

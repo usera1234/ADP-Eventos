@@ -7,15 +7,15 @@ class AppCo14 extends HTMLElement {
                     <div class="flip-card">
                         <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="static/images/ezequielD.jpg" alt="Nombre Persona">
-                            <h3>Nombre Persona</h3>
+                            <img src="static/images/speakers-cards/nicolas-caballero.jpeg" alt="Nombre Persona">
+                            <h3>Nicolas Caballero</h3>
                         </div>
                         <div class="flip-card-back">
-                            <img src="static/images/ezequielD.jpg" class="blur-img" alt="Nombre Persona">
+                            <img src="static/images/speakers-cards/nicolas-caballero.jpeg" class="blur-img" alt="Nombre Persona">
                             <div class="flip-card-content">
-                            <h3>Nombre Persona</h3>
-                            <p>Cargo o descripción breve.</p>
-                            <a href="https://linkedin.com/in/persona1" target="_blank">LinkedIn</a>
+                            <h3>Nicolas Caballero</h3>
+                            <p>Abogado. Martillero Público <br>y Corredor Inmobiliario.</p>
+                            <a href="https://www.linkedin.com/in/nicolas-caballero-766941230/" target="_blank">LinkedIn</a>
                             </div>
                         </div>
                         </div>
