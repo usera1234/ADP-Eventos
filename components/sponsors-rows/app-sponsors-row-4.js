@@ -6,10 +6,10 @@ class AppSponsorsRow4 extends HTMLElement {
             <div class="sponsors-grid">
                 <div id="nombre-empresa" class="sponsors-item">
                 <app-sponsors-link
-                  href="https://www.lucerolabs.xyz/" src="static/images/sponsors/luscerolabs.png" clase="sponsors-item-img">
+                  href="https://www.lucerolabs.xyz/" src="static/images/sponsors/lucerolabs.png" clase="sponsors-item-img" estilo="width:250px; height: 125px">
                 </app-sponsors-link>                
                 <div class="sponsors-texto">
-                Lucero Labs
+                Lucero Labs, Revolutionizing Public Key Infrastructure with blockchain, offering robust digital signing and identity solutions.
                 </div>
                 </div>
                 <div id="nombre-empresa" class="sponsors-item">

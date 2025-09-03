@@ -15,13 +15,6 @@ class AppSponsorsRow6 extends HTMLElement {
                 </div>
                 </div>
                 <div id="Thomson-Reuters" class="sponsors-item">
-                <app-sponsors-link
-                  href="https://contractia.io/" src="static/images/sponsors/contactia.jpeg"" clase="sponsors-item-img" >
-                </app-sponsors-link>
-                <div class="sponsors-texto">
-                Contractia es la plataforma web multi-dispositivo para la gestión y firma electrónica de documentos digitales         
-                </div>
-                </div>
                 <div id="nombre-empresa" class="sponsors-item">
                 <app-sponsors-link
                   href="https://noetingeryarmando.com/" src="static/images/sponsors/noetinger.png"" clase="sponsors-item-img">
