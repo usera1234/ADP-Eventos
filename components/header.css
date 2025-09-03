@@ -12,10 +12,9 @@ app-header .header-container {
 }
 
 app-header #logo-header {
-  width: 35%;
+  width: 25%;
   height: 100%;
   transition: all 0.3s ease;
-  margin-left: 0px;
 }
 
 app-header .btn {
@@ -102,14 +101,14 @@ app-header .achicarLogo { transform: scale(0.7); }
 }
 @media (max-width: 1600px) and (min-width: 769px) {
   app-header .header-container {
-    height: auto;
+    height: 115px;
     gap: 0rem;
     padding: 0;
   }
 
   app-header #logo-header {
     width: 600px;
-    margin-left: -50px;
+    margin-top: -35px;
   }
 
   app-header .btn{
@@ -119,8 +118,9 @@ app-header .achicarLogo { transform: scale(0.7); }
 
   app-header .nav-links{
     padding-bottom: 10px;
-    gap: 1rem;
-    padding-right: 0%;
+    gap: 2rem;
+    padding-right: 3%;
+    padding-top: 15px;
   }
 }
 
