@@ -20,14 +20,6 @@ class AppSponsorsRow2 extends HTMLElement {
                 Thomson Reuters Argentina, líderes mundiales en información y soluciones para empresas y profesionales. 
                 </div>
                 </div>
-                <div id="Contractia" class="sponsors-item">
-                <app-sponsors-link
-                  href="https://contractia.io/" src="static/images/sponsors/contactia.jpeg"" clase="sponsors-item-img" >
-                </app-sponsors-link>
-                <div class="sponsors-texto">
-                Contractia es la plataforma web multi-dispositivo para la gestión y firma electrónica de documentos digitales         
-                </div>
-                </div>
                 
     `;
   }

@@ -4,13 +4,13 @@ class AppSponsorsRow1 extends HTMLElement {
   constructor() {
     super();
     this.innerHTML = `
-            <div class="sponsors-grid">
-                <div id="adp" class="sponsors-item">
-                  <app-sponsors-link
-                    href="https://www.cpacf.org.ar/" src="static/images/logo_adp.png" clase="sponsors-item-img">
-                  </app-sponsors-link>
+            <div class="sponsors-grid">  
+                <div id="Contractia" class="sponsors-item">
+                <app-sponsors-link
+                  href="https://contractia.io/" src="static/images/sponsors/contactia.jpeg"" clase="sponsors-item-img" >
+                </app-sponsors-link>
                 <div class="sponsors-texto">
-                Colegio de Abogados <br> de la Capital Federal
+                Contractia es la plataforma web multi-dispositivo para la gestión y firma electrónica de documentos digitales         
                 </div>
                 </div>
                 <div id="Dropbox" class="sponsors-item">

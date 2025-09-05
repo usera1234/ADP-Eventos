@@ -1,0 +1,16 @@
+app-footer .footer {
+  width: 100%;
+  height: 150px;
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+app-footer .footer-content {
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+}
