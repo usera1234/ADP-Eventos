@@ -1,4 +1,4 @@
-import './speakers-cards/app-speaker-card-beatriz-torres.js'
+import './speakers-cards/app-speaker-card-gabriel-coronel-lavecchia.js'
 import './speakers-cards/app-speaker-card-agustina-orellana.js'
 import './speakers-cards/app-speaker-card-mariano-jaramillo.js'
 import './speakers-cards/app-speaker-card-ricardo-guerra.js'

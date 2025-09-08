@@ -1,6 +1,7 @@
 import './speakers-rows/app-speaker-row-1.js'
 import './speakers-rows/app-speaker-row-2.js'
 import './speakers-rows/app-speaker-row-3.js'
+import './speakers-rows/app-speaker-row-4.js'
 
 class AppSpeakers extends HTMLElement {
     constructor(){
@@ -22,6 +23,7 @@ class AppSpeakers extends HTMLElement {
 
                     <app-speaker-row-3 id="speaker-row-3"></app-speaker-row-3>
 
+                    <app-speaker-row-4></app-speaker-row-4>
                 </div>
             </div>
         `;

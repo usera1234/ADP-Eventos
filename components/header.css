@@ -102,7 +102,7 @@ app-header .achicarLogo { transform: scale(0.7); }
 }
 @media (max-width: 1600px) and (min-width: 769px) {
   app-header .header-container {
-    height: 115px;
+    height: 125px;
     gap: 0rem;
     padding: 0;
   }

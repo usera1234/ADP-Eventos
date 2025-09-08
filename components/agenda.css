@@ -182,6 +182,8 @@ app-agenda .cronograma-subtitulo {
     width: 100vw;
     height: auto;
     gap: 10px;
+    align-content: center;
+    align-items: center;
   }
 
   app-agenda .cronograma-imagen {
@@ -196,18 +198,38 @@ app-agenda .cronograma-subtitulo {
     padding-right: 10px;
   }
 
-  app-agenda .cronograma-row {
+  app-agenda .cronograma-row{
     flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+  app-agenda .cronograma-row-speakers {
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
   }
 
-  app-agenda .cronograma-item {
-    width: 80vw;
-    margin: 1rem auto;
-    margin-top: 1.5rem;
+  app-agenda .cronograma-item,
+  app-agenda .cronograma-item-acreditaciones,
+  app-agenda .cronograma-item-apertura,
+  app-agenda .cronograma-item-escenarios,
+  app-agenda .cronograma-item-speakers {
+    width: 90vw;
+    min-width: 250px;
+    max-width: 400px;
+    margin: 2rem;
+    margin-top: 1rem;
     text-align: center;
     padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
-  
+
   app-agenda #agenda {
     flex-direction: column !important;
     align-items: center;
