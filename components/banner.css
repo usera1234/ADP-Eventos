@@ -12,22 +12,22 @@
       display: flex;
       flex-direction: row;
       height: auto; 
-      width: 100%; 
+      width: 600px; 
       align-self: center; 
       z-index: 1;
       align-items: first baseline; 
       font-size: 70px;                                  
       position: relative;
-      margin-top: 0px;
+      margin-top: 50px;
+      margin-left: 210px;
     }
     app-banner .banner-texto{
       font-family: 'Playfair Display', serif;
       font-size: 80px;
       align-content: center;
-      margin-left: 210px;
-      margin-top: 50px;
-      width: 1950px;
       color: black;
+      opacity: 1;
+      width: 600px;
     }
     app-banner .banner-image{
       width: 100%;
@@ -46,26 +46,28 @@
     app-banner .banner-line-register{
     width: 100%;
     height: 2px;
-    background-color: #0097b2;
-    background-color: #2a8dbe;
+    background-color: #014e5c;
     height: 200px;
-    opacity: 0.4;
     }
 
-    app-banner .btn {
+  app-banner .btn-banner {
     background-image: var(--bg-background-image); 
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     cursor: pointer;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3em;
-    display: flex;
+    display: flex;  
     flex-direction: row;
     align-items: center;
-    background-color: #00000000;
-    width: auto;
+    justify-content: center;
+    text-align: center;
+    background-color: #05121b;
+    color: black;
+    width: 600px;
     height: auto;
-    }
+    opacity: 1;
+}
 
     app-banner .button-register {
       width: 300px; 
@@ -95,8 +97,12 @@
         flex-direction: column;
       }
 
-      app-banner .banner-texto {
+      app-banner .banner-item {
         margin-left: 190px;
+      }
+
+      app-banner .banner-texto {
+        
       }
 
       app-banner .banner-line-register{

@@ -5,25 +5,24 @@ class AppSponsorsRow6 extends HTMLElement {
     super();
     
     this.innerHTML = `
-            <div class="sponsors-grid">
-                <div id="DoctIA" class="sponsors-item">
+              <div class="sponsors-grid">
+                <div id="ialab" class="sponsors-item">
                 <app-sponsors-link
-                  href="https://brevity.pro/" src="static/images/sponsors/brevity.png" clase="sponsors-item-img">
+                  href="https://ialab.com.ar/" src="static/images/sponsors/ialab.png"" clase="sponsors-item-img" estilo="width:200px">
                 </app-sponsors-link>
                 <div class="sponsors-texto">
-                    Brevity, la plataforma inteligente para la gestión de sociedades
+                IaLab, Universidad de Buenos Aires.
                 </div>
-                </div>
-                <div id="Thomson-Reuters" class="sponsors-item">
-                <div id="nombre-empresa" class="sponsors-item">
+                </div>   
+                <div id="jurisprudenciaarg" class="sponsors-item">
                 <app-sponsors-link
-                  href="https://noetingeryarmando.com/" src="static/images/sponsors/noetinger.png"" clase="sponsors-item-img">
+                  href="https://jurisprudenciaarg.com/" src="static/images/sponsors/jurisprudenciaarg.jpeg"" clase="sponsors-item-img" >
                 </app-sponsors-link>
                 <div class="sponsors-texto">
-                Provacy
+                Jurisprudencia ARG, Tu asistente para buscar fallos en segundos.
                 </div>
                 </div>
-            </div>
+              </div>
     `;
   }
 }
