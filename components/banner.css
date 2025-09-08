@@ -25,7 +25,7 @@
       font-family: 'Playfair Display', serif;
       font-size: 80px;
       align-content: center;
-      color: black;
+      color: rgb(255, 255, 255);
       opacity: 1;
       width: 600px;
     }
@@ -63,7 +63,7 @@
     justify-content: center;
     text-align: center;
     background-color: #05121b;
-    color: black;
+    color: rgb(255, 255, 255);
     width: 600px;
     height: auto;
     opacity: 1;
@@ -78,7 +78,7 @@
       padding-left: 50px; 
       background-color: #1DA1F2; 
       opacity: 1; 
-      color: black; 
+      color: rgb(255, 255, 255); 
       font-size: 60px; 
       margin-left: 30px;
       cursor: pointer;
@@ -98,7 +98,7 @@
       }
 
       app-banner .banner-item {
-        margin-left: 190px;
+        margin-left: 180px;
       }
 
       app-banner .banner-texto {

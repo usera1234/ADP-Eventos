@@ -30,7 +30,7 @@ app-header .btn {
   justify-content: center;
   text-align: center;
   background-color: #091e2c;
-  color: black;
+  color: rgb(255, 255, 255);
   width: 160px;
   height: 55px
 }

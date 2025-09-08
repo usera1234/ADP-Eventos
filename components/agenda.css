@@ -196,6 +196,10 @@ app-agenda .cronograma-subtitulo {
     padding-right: 10px;
   }
 
+  app-agenda .cronograma-row {
+    flex-direction: column;
+  }
+
   app-agenda .cronograma-item {
     width: 80vw;
     margin: 1rem auto;

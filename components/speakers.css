@@ -24,7 +24,8 @@ app-speakers .speakers-titulo{
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    opacity: 1;
 }
 app-speakers .speakers-line{
     display: block;
