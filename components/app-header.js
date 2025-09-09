@@ -13,8 +13,8 @@ class AppHeader extends HTMLElement {
             <nav class="nav-links">
                 <!-- 5) data-target indica a qué sección del index scrollear -->
                 <button class="btn" data-target="#speakers">Speakers</button>
-                <button class="btn" data-target="#Comite-organizativo">Comité <br> organizador</button>
                 <button class="btn" data-target="#sponsors">Sponsors</button>
+                <button class="btn" data-target="#Comite-organizativo">Comité <br> organizador</button>
             </nav>
             </div>
           </header> 

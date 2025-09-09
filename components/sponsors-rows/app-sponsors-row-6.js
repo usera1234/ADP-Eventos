@@ -6,22 +6,30 @@ class AppSponsorsRow6 extends HTMLElement {
     
     this.innerHTML = `
               <div class="sponsors-grid">
+                <div id="JusLab" class="sponsors-item">
+                <app-sponsors-link
+                  href="https://juslab.com.ar/" src="static/images/sponsors/juslab.jpeg"" clase="sponsors-item-img" estilo="">
+                </app-sponsors-link>
+                <div class="sponsors-texto">
+                JusLab, laboratorio de innovacion judicial.
+                </div>
+                </div> 
+                <div id="Alta" class="sponsors-item">
+                <app-sponsors-link
+                  href="https://altargentina.tech/" src="static/images/sponsors/alta.png"" clase="sponsors-item-img" estilo="width:250px">
+                </app-sponsors-link>
+                <div class="sponsors-texto">
+                Alta, impulsores de legaltech en argentina.
+                </div>
+                </div>  
                 <div id="ialab" class="sponsors-item">
                 <app-sponsors-link
-                  href="https://ialab.com.ar/" src="static/images/sponsors/ialab.png"" clase="sponsors-item-img" estilo="width:200px">
+                  href="https://ialab.com.ar/" src="static/images/sponsors/ialab.png"" clase="sponsors-item-img" estilo="width:250px">
                 </app-sponsors-link>
                 <div class="sponsors-texto">
                 IaLab, Universidad de Buenos Aires.
                 </div>
-                </div>   
-                <div id="jurisprudenciaarg" class="sponsors-item">
-                <app-sponsors-link
-                  href="https://jurisprudenciaarg.com/" src="static/images/sponsors/jurisprudenciaarg.jpeg"" clase="sponsors-item-img" >
-                </app-sponsors-link>
-                <div class="sponsors-texto">
-                Jurisprudencia ARG, Tu asistente para buscar fallos en segundos.
-                </div>
-                </div>
+                </div> 
               </div>
     `;
   }

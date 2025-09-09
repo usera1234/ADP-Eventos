@@ -1,5 +1,5 @@
 import './comite-organizativo-cards/c.o-2,1.js';
-import './comite-organizativo-cards/c.o-2,2.js';
+import './comite-organizativo-cards/c.o-1,4.js';
 import './comite-organizativo-cards/c.o-2,3.js';
 import './comite-organizativo-cards/c.o-2,4.js';
 
@@ -11,7 +11,7 @@ class AppComiteOrganizativoRow2 extends HTMLElement {
                 <div class="comite-organizativo-row">
                     <app-co-21></app-co-21> <!-- file:///C:/Proyectos/ADP-Eventos/components/comite-organizativo-rows/comite-organizativo-cards/c.o-2,1.js -->
 
-                    <!-- <app-co-22></app-co-22> <!-- file:///C:/Proyectos/ADP-Eventos/components/comite-organizativo-rows/comite-organizativo-cards/c.o-2,2.js --> 
+                    <app-co-14></app-co-14> <!-- file:///C:/Proyectos/ADP-Eventos/components/comite-organizativo-rows/comite-organizativo-cards/c.o-1,4.js -->
                     
                     <!-- <app-co-23></app-co-23> <!-- file:///C:/Proyectos/ADP-Eventos/components/comite-organizativo-rows/comite-organizativo-cards/c.o-2,3.js -->
                     

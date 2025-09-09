@@ -22,7 +22,14 @@ class AppSponsorsRow5 extends HTMLElement {
                 Legalify, Es la única plataforma global de servicios profesionales especializados y calificados por los usuarios que vincula de manera transparente al profesional con su cliente.
                 </div>
                 </div>
-                
+                <div id="jurisprudenciaarg" class="sponsors-item">
+                <app-sponsors-link
+                  href="https://jurisprudenciaarg.com/" src="static/images/sponsors/jurisprudenciaarg.jpeg"" clase="sponsors-item-img" >
+                </app-sponsors-link>
+                <div class="sponsors-texto">
+                Jurisprudencia ARG, Tu asistente para buscar fallos en segundos.
+                </div>
+                </div>
             </div>
     `;
   }
