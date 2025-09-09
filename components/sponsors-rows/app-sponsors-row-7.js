@@ -21,17 +21,18 @@ class AppSponsorsRow7 extends HTMLElement {
                 <div class="sponsors-texto">
                 Alta, impulsores de legaltech en argentina.
                 </div>
-                </div>  
-                <div id="ialab" class="sponsors-item">
+                </div>   
+              </div>
+              <!--<div id="ialab" class="sponsors-item">
                 <app-sponsors-link
                   href="https://ialab.com.ar/" src="static/images/sponsors/ialab.png"" clase="sponsors-item-img" estilo="width:250px">
                 </app-sponsors-link>
                 <div class="sponsors-texto">
                 IaLab, Universidad de Buenos Aires.
                 </div>
-                </div> 
-              </div>
+                </div> --!>
     `;
   }
 }
 customElements.define('app-sponsors-row-7', AppSponsorsRow7);
+

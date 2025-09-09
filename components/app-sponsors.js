@@ -36,9 +36,9 @@ class AppSponsors extends HTMLElement {
                 <div class="sponsors-titulo">Apoyo institucional</div>
                 <div class="sponsors-line"></div>
             </div>
-            <app-sponsors-row-7></app-sponsors-row-6>
+            <app-sponsors-row-7></app-sponsors-row-7>
 
-            <app-sponsors-row-8></app-sponsors-row-7>
+            <app-sponsors-row-8></app-sponsors-row-8>
             </div>
         `;    
     }
