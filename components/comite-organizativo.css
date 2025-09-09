@@ -26,6 +26,7 @@ app-comite-organizativo .comite-organizativo-titulo {
   height: 200px; 
   align-self: center;
   color: black;
+  display:flex;
 
 }
 app-comite-organizativo .comite-organizativo-texto{
@@ -181,17 +182,17 @@ app-comite-organizativo .flip-card-content a {
 
   app-comite-organizativo .comite-organizativo-card {
     gap:0px;
+    width: 100%;
   }
 
   app-comite-organizativo .comite-organizativo-titulo {
-    width: 60vw;
+    width: 100%;
     height: auto;
     text-align: center;
-    margin-left: -60px;
   }
 
   app-comite-organizativo .comite-organizativo-texto {
-    font-size: 40px;
+    font-size: 25px;
     width: fit-content;
     margin-top: 1rem;
     margin-left: 0px;
@@ -207,8 +208,7 @@ app-comite-organizativo .flip-card-content a {
   }
 }
 @media (min-width: 800px), (max-width: 1500px) {
-  app-comite-organizativo .comite-organizativo-row {
-  }
+  
 }
 
 @media (min-width: 1600px) {
