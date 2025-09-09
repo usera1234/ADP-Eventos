@@ -38,3 +38,30 @@ app-footer .footer-text {
   font-family: 'Playfair Display', serif;
   color: black;
 }
+@media (max-width: 768px) {
+  app-footer .footer {
+    width: 100vw;
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  app-footer .footer-row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  app-footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  app-footer .footer-imagen {
+    width: 300px;
+    height: auto;
+  }
+
+  app-footer .footer-text {
+    font-size: 20px;
+    text-align: center;
+  }
+}
