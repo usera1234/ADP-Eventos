@@ -6,28 +6,12 @@ class AppSponsorsRow6 extends HTMLElement {
     
     this.innerHTML = `
               <div class="sponsors-grid">
-                <div id="JusLab" class="sponsors-item">
+                <div id="Wow" class="sponsors-item">
                 <app-sponsors-link
-                  href="https://juslab.com.ar/" src="static/images/sponsors/juslab.jpeg"" clase="sponsors-item-img" estilo="">
+                  href="https://juslab.com.ar/" src="static/images/sponsors/wow.png"" clase="sponsors-item-img" estilo="">
                 </app-sponsors-link>
                 <div class="sponsors-texto">
-                JusLab, laboratorio de innovacion judicial.
-                </div>
-                </div> 
-                <div id="Alta" class="sponsors-item">
-                <app-sponsors-link
-                  href="https://altargentina.tech/" src="static/images/sponsors/alta.png"" clase="sponsors-item-img" estilo="width:250px">
-                </app-sponsors-link>
-                <div class="sponsors-texto">
-                Alta, impulsores de legaltech en argentina.
-                </div>
-                </div>  
-                <div id="ialab" class="sponsors-item">
-                <app-sponsors-link
-                  href="https://ialab.com.ar/" src="static/images/sponsors/ialab.png"" clase="sponsors-item-img" estilo="width:250px">
-                </app-sponsors-link>
-                <div class="sponsors-texto">
-                IaLab, Universidad de Buenos Aires.
+                Wow, legal design & visual law agency.
                 </div>
                 </div> 
               </div>

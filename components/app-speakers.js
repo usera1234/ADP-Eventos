@@ -2,6 +2,7 @@ import './speakers-rows/app-speaker-row-1.js'
 import './speakers-rows/app-speaker-row-2.js'
 import './speakers-rows/app-speaker-row-3.js'
 import './speakers-rows/app-speaker-row-4.js'
+import './speakers-rows/app-speaker-row-5.js'
 
 class AppSpeakers extends HTMLElement {
     constructor(){
@@ -23,7 +24,9 @@ class AppSpeakers extends HTMLElement {
 
                     <app-speaker-row-3 id="speaker-row-3"></app-speaker-row-3>
 
-                    <app-speaker-row-4></app-speaker-row-4>
+                    <app-speaker-row-4 id="speaker-row-4"></app-speaker-row-4>
+
+                    <app-speaker-row-5 id="speaker-row-5"></app-speaker-row-5>
                 </div>
             </div>
         `;
@@ -35,8 +38,10 @@ class AppSpeakers extends HTMLElement {
     const row1   = this.querySelector('#speaker-row-1');
     const row2   = this.querySelector('#speaker-row-2');
     const row3   = this.querySelector('#speaker-row-3');
+    const row4   = this.querySelector('#speaker-row-4');
+    const row5   = this.querySelector('#speaker-row-5');
 
-    const targets = [header, row1, row2, row3].filter(Boolean);
+    const targets = [header, row1, row2, row3, row4, row5].filter(Boolean);
 
     // estado inicial oculto (evita "flash" sin animar)
     targets.forEach(el => el.classList.add('reveal'));

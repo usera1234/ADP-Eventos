@@ -6,30 +6,30 @@ class AppSponsorsRow7 extends HTMLElement {
     
     this.innerHTML = `
               <div class="sponsors-grid">
-                <div id="MiReclamo" class="sponsors-item">
+                <div id="JusLab" class="sponsors-item">
                 <app-sponsors-link
-                  href="https://mireclamo.juscaba.gob.ar/login" src="static/images/sponsors/mi-reclamo.png"" clase="sponsors-item-img" estilo="width:250px;">
+                  href="https://juslab.com.ar/" src="static/images/sponsors/juslab.jpeg"" clase="sponsors-item-img" estilo="">
                 </app-sponsors-link>
                 <div class="sponsors-texto">
-                Mi Reclamo, sistema de Conciliacion de la Justicia en las relaciones de consumo. CABA.
+                JusLab, laboratorio de innovacion judicial.
                 </div>
                 </div> 
-                <div id="JustiBot" class="sponsors-item">
+                <div id="Alta" class="sponsors-item">
                 <app-sponsors-link
-                  href="https://consejo.jusbaires.gob.ar/noticias/lanzamiento-de-justibot-inteligente/" src="static/images/sponsors/justibot.jpg"" clase="sponsors-item-img" estilo="">
+                  href="https://altargentina.tech/" src="static/images/sponsors/alta.png"" clase="sponsors-item-img" estilo="width:250px">
                 </app-sponsors-link>
                 <div class="sponsors-texto">
-                Justibot, chatbot inteligente del consejo de la magistratura CABA.
+                Alta, impulsores de legaltech en argentina.
                 </div>
-                </div>
-                <div id="PortalDelLitigante" class="sponsors-item">
+                </div>  
+                <div id="ialab" class="sponsors-item">
                 <app-sponsors-link
-                  href="https://jusbairesabierto.gob.ar/portal-del-litigante-la-inscripcion-para-abogados-que-moderniza-el-servicio-de-justicia/" src="static/images/sponsors/portal-del-litigante.jpg"" clase="sponsors-item-img" estilo="">
+                  href="https://ialab.com.ar/" src="static/images/sponsors/ialab.png"" clase="sponsors-item-img" estilo="width:250px">
                 </app-sponsors-link>
                 <div class="sponsors-texto">
-                Portal del Litigante, sistema de gestion de expedientes judiciales del consejo de la majistratura CABA.
+                IaLab, Universidad de Buenos Aires.
                 </div>
-                </div>
+                </div> 
               </div>
     `;
   }

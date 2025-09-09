@@ -1,7 +1,7 @@
 import './speakers-cards/app-speaker-card-gabriel-coronel-lavecchia.js'
 import './speakers-cards/app-speaker-card-ricardo-guerra.js'
 import './speakers-cards/app-speaker-card-sebastian-ivernizzi.js'
-import './speakers-cards/app-speaker-card-martin-ignacio-granero.js'
+import './speakers-cards/app-speaker-card-roger-arias.js'
 
 class AppSpeakerRow4 extends HTMLElement {
     constructor (){
@@ -15,7 +15,7 @@ class AppSpeakerRow4 extends HTMLElement {
 
                     <app-speaker-card-ricardo-guerra></app-speaker-card-ricardo-guerra>
 
-                    <app-speaker-card-martin-ignacio-granero></app-sepaker-card-martin-ignacio-granero>
+                    <app-speaker-card-roger-arias></app-speaker-card-roger-arias>
                 </div>
             `
     }
