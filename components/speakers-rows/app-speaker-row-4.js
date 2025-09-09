@@ -1,24 +1,22 @@
 import './speakers-cards/app-speaker-card-gabriel-coronel-lavecchia.js'
-import './speakers-cards/app-speaker-card-agustina-orellana.js'
+import './speakers-cards/app-speaker-card-juan-pablo-altmark.js'
 import './speakers-cards/app-speaker-card-mariano-jaramillo.js'
-import './speakers-cards/app-speaker-card-ricardo-guerra.js'
+import './speakers-cards/app-speaker-card-florencia-singla.js'
+import './speakers-cards/app-speaker-card-gabriel-coronel-lavecchia.js'
 
-class AppSpeakerRow3 extends HTMLElement {
+class AppSpeakerRow4 extends HTMLElement {
     constructor (){
         super();
 
             this.innerHTML = `
                 <div class="speakers-row">
-                    <app-speaker-card-ricardo-guerra></app-speaker-card-ricardo-guerra>
+                    <app-speaker-card-gabriel-coronel-lavecchia></app-speaker-card-gabriel-coronel-lavecchia>
 
-                    <app-speaker-card-beatriz-torres></app-speaker-card-beatriz-torres>
+                    <app-speaker-card-juan-pablo-altmark></app-speaker-card-juan-pablo-altmark>
 
-                    <app-speaker-card-agustina-orellana></app-speaker-card-agustina-orellana>
-
-                    <app-speaker-card-mariano-jaramillo></app-speaker-card-mariano-jaramillo>
                 </div>
             `
     }
 }
 
-customElements.define('app-speaker-row-3', AppSpeakerRow3)
+customElements.define('app-speaker-row-4', AppSpeakerRow4)

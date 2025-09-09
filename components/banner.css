@@ -150,4 +150,8 @@
       app-banner .banner-line{
       width: 100%;
       }
+
+      app-banner .banner-image{
+        height: 650px;
+      }
     }

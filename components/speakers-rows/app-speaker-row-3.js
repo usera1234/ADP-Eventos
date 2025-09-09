@@ -13,8 +13,6 @@ class AppSpeakerRow3 extends HTMLElement {
 
                     <app-speaker-card-beatriz-torres></app-speaker-card-beatriz-torres>
 
-                    <app-speaker-card-agustina-orellana></app-speaker-card-agustina-orellana>
-
                     <app-speaker-card-mariano-jaramillo></app-speaker-card-mariano-jaramillo>
                 </div>
             `

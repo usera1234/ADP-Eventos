@@ -10,7 +10,7 @@ class AppSpeakerCardMarianoJaramillo extends HTMLElement {
                         href="https://www.linkedin.com/in/mariano-j/">
                     </app-speakers-linkedin>
                     <div class="speakers-card">
-                        <img src="static/images/speakers-cards/mariano-jaramillo.jpg" class="speakers-card">
+                        <img src="static/images/speakers-cards/mariano-jaramillo.png" class="speakers-card">
                     </div>
                     <div class="speakers-card-name">
                         Mariano Jaramillo
