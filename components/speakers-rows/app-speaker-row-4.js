@@ -9,7 +9,6 @@ class AppSpeakerRow4 extends HTMLElement {
 
             this.innerHTML = `
                 <div class="speakers-row">
-                    <app-speaker-card-gabriel-coronel-lavecchia></app-speaker-card-gabriel-coronel-lavecchia>
 
                     <app-speaker-card-sebastian-ivernizzi></app-speaker-card-sebastian-ivernizzi>
 

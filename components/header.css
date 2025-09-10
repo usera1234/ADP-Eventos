@@ -84,6 +84,11 @@ app-header .achicarLogo { transform: scale(0.7); }
     padding: 0;
     justify-content: center;
   }
+  app-header .btn {
+    width: 130px;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
 }
 @media (min-width: 1600px) {
   app-header #logo-header {

@@ -106,8 +106,8 @@
         flex-direction: column;
       }
 
-      app-banner .cronograma-imagen {
-        height: 300px;
+      app-banner .banner-image {
+        height: 250px;
       }
 
       app-banner .banner-item {
@@ -118,6 +118,7 @@
         text-align:justify;
         display: flex;
         flex-direction: column;
+        gap: 60px;
       }
 
       app-banner .banner-texto {
@@ -137,7 +138,8 @@
       }
 
       app-banner .btn-banner {
-        width: 80%;
+        width:270px;
+        font-size: 1.8rem;
       }
     }
     @media (min-width: 1700px) {  

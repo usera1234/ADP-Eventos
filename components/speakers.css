@@ -28,11 +28,13 @@ app-speakers .speakers-titulo{
     opacity: 1;
 }
 app-speakers .speakers-line{
-    display: block;
+    display: flex;
     flex-direction: column;
     width: 100%;
     height: 2px;
     background-color: #0097b2;
+    justify-content: center;
+
 }
 app-speakers .speakers-grid{
     width: auto;
@@ -115,18 +117,24 @@ app-speakers .animar-speakers {
     }
 
     app-speakers .speakers-header{
-        margin-top: -30px;
+        display: flex;
+        justify-content: center;
     }
 
     app-speakers .speakers-titulo {
-        padding-right: 30px;
-        margin-left: -9px;
         font-size: 80px;
+        margin-top: 0px;
+    }
+
+    app-speaker .speakers-line{
+        display: flex;
+        justify-content: center;
     }
 
     app-speakers .speakers-row {
         flex-direction: column;
         gap: 100px;
+        margin: 0px;
     }
 }
 
