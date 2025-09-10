@@ -90,6 +90,7 @@ app-header .achicarLogo { transform: scale(0.7); }
     margin-bottom: 10px;
   }
 }
+
 @media (min-width: 1600px) {
   app-header #logo-header {
     margin-left: 0px;

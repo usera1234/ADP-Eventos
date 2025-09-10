@@ -20,6 +20,7 @@ class AppSponsorsRow1 extends HTMLElement {
                 <div class="sponsors-texto" style="margin-left: 10px;">
                 Tline, el Primer Tier 1 de Dropbox en América Latina.
                 </div>
+                </div>
             </div>
     `;
   }
