@@ -15,9 +15,6 @@ class AppSpeakerCardRicardoGuerra extends HTMLElement {
                     <div class="speakers-card-name">
                         Ricardo Guerra
                     </div>
-                    <div class="speakers-card-role" style="margin-top: 50px;">
-                        Herramienta de búsqueda universal, <br>recupera tu tiempo con Dropbox
-                    </div>
                 </div>
             `
     }
