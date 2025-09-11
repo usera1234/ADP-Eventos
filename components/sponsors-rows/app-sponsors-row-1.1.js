@@ -1,6 +1,6 @@
 import './app-sponsors-links.js'
 
-class AppSponsorsRow21 extends HTMLElement {
+class AppSponsorsRow11 extends HTMLElement {
   constructor() {
     super();
     this.innerHTML = `
@@ -27,4 +27,4 @@ class AppSponsorsRow21 extends HTMLElement {
     `;
   }
 }
-customElements.define('app-sponsors-row-21', AppSponsorsRow21);
+customElements.define('app-sponsors-row-11', AppSponsorsRow11);
