@@ -23,7 +23,6 @@ app-speakers .speakers-titulo{
     align-self: center;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
     color: rgb(255, 255, 255);
     opacity: 1;
 }
@@ -139,10 +138,6 @@ app-speakers .animar-speakers {
 }
 
 @media (min-width: 1600px) {
-    app-speakers .speakers-titulo {
-        margin-top: 30px;
-    }
-
     app-speakers .speakers-grid {
         gap:10rem;
     }
