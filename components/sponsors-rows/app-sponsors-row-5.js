@@ -11,8 +11,7 @@ class AppSponsorsRow5 extends HTMLElement {
                   href="https://arteclaw.com/es" src="static/images/sponsors/arteclaw.png" clase="sponsors-item-img">
                 </app-sponsors-link>
                 <div class="sponsors-texto">
-                  Arteclaw, An AI-first LegalTech company founded by lawyers and software engineers, delivering solutions that simplify, automate, and scale modern legal practice from end to end. 
-                </div>
+                  AI-first LegalTech company founded by lawyers and software engineers, delivering solutions that simplify, automate, and scale modern legal practice from end to end.                </div>
                 </div>
                 <div id="Thomson-Reuters" class="sponsors-item">
                 <app-sponsors-link
