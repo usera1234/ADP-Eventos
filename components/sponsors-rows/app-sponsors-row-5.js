@@ -6,14 +6,12 @@ class AppSponsorsRow5 extends HTMLElement {
     
     this.innerHTML = `
             <div class="sponsors-grid">
-                <div id="DoctIA" class="sponsors-item">
+                <div id="Arteclaw" class="sponsors-item">
                 <app-sponsors-link
                   href="https://arteclaw.com/es" src="static/images/sponsors/arteclaw.png" clase="sponsors-item-img">
                 </app-sponsors-link>
                 <div class="sponsors-texto">
-                  ArteClaw, Streamline operations, <br>automate processes, and enhance efficiency<br> to transform how legal teams work 
-                </div>
-                </div>
+                  Arteclaw, an AI-first LegalTech company founded by lawyers and software engineers, delivering solutions that simplify, automate, and scale modern legal practice from end to end.                </div>
                 <div id="Thomson-Reuters" class="sponsors-item">
                 <app-sponsors-link
                   href="https://legalify.app/" src="static/images/sponsors/legalify.jpeg"" clase="sponsors-item-img" >
